@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "8kD4tr/XCHkyfsGhX23D4LSwKVNZagqQOQYiph1TLTq13WtmX0AGqeaaMwbdixSA7mHIvgB2k96yow/lxFuQlQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Api\\CryptoExchange.Modules.Users.Api.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}

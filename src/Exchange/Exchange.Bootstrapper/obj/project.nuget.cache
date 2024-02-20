@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "bZFAy3HExTPfK8rVYYaEPJjeyzXODUYR6wi+DQZcZ1Tvin4nSAfNN6QP7CWKdR6n0+bz9xnIQoif6Bs21wkPNw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\micha\\CryptoExchange\\src\\Exchange\\Exchange.Bootstrapper\\Exchange.Bootstrapper.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.27\\microsoft.netcore.app.host.win-x64.6.0.27.nupkg.sha512"
+  ],
+  "logs": []
+}
