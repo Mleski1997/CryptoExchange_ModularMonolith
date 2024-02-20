@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CryptoExchange.Modules.Users.Core
+namespace CryptoExchange.Shared.Infrastructure.Postgres
 {
-    internal class User
+    internal class Extensions
     {
     }
 }
