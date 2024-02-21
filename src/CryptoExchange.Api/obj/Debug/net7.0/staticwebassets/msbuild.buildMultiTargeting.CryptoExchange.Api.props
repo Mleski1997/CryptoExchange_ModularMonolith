@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\CryptoExchange.Api.props" />
-</Project>

@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace CryptoExchange.Shared.Infrastructure.Postgres
 {
-    internal class PostgresOptions
+    public  class PostgresOptions
     {
+        public string ConnectionString { get; set; }
     }
 }
