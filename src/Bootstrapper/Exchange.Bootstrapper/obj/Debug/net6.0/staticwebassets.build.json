@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "kjR1WPwfs84SvLWZlAxQKGCdY5gmXUuxKqsY6nvN1fU=",
+  "Source": "Exchange.Bootstrapper",
+  "BasePath": "_content/Exchange.Bootstrapper",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

@@ -20,4 +20,8 @@
     <ProjectReference Include="..\..\Shared\CryptoExchange.Shared.Infrastructure\CryptoExchange.Shared.Infrastructure.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Controllers\" />
+  </ItemGroup>
+
 </Project>

@@ -1,0 +1,12 @@
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\bin\Debug\net6.0\CryptoExchange.Shared.Infrastructure.deps.json
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\bin\Debug\net6.0\CryptoExchange.Shared.Infrastructure.dll
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\bin\Debug\net6.0\CryptoExchange.Shared.Infrastructure.pdb
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\CryptoExchange.Shared.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\CryptoExchange.Shared.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\CryptoExchange.Shared.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\CryptoExchange.Shared.Infrastructure.AssemblyInfo.cs
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\CryptoExchange.Shared.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\CryptoExchange.Shared.Infrastructure.dll
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\refint\CryptoExchange.Shared.Infrastructure.dll
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\CryptoExchange.Shared.Infrastructure.pdb
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\ref\CryptoExchange.Shared.Infrastructure.dll

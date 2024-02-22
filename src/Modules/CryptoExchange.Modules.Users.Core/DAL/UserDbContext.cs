@@ -12,6 +12,10 @@ namespace CryptoExchange.Modules.Users.Core.DAL
 {
     public class UserDbContext : IdentityDbContext<IdentityUser>
     {
-        public UserDbContext(DbContextOptions<UserDbContext> options) : base(options) { }
+        public UserDbContext(DbContextOptions<UserDbContext> options) : base(options) 
+        { 
+        
+        
+        }
     }
 }
