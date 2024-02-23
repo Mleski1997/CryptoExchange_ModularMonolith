@@ -23,7 +23,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Shared.Infra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{570CCA35-7F6D-4552-8EFF-47EA458340CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exchange.Bootstrapper", "src\Bootstrapper\Exchange.Bootstrapper\Exchange.Bootstrapper.csproj", "{B4CADFF2-D60B-470C-8569-41670006AEBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Boostrapper.CryptoExchange", "src\Bootstrapper\Exchange.Bootstrapper\Boostrapper.CryptoExchange\Boostrapper.CryptoExchange.csproj", "{6348459E-0C7C-48EB-A0D4-000AEEFD1443}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -47,10 +47,10 @@ Global
 		{58D57D68-D557-4D0D-A6AE-666E208457F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58D57D68-D557-4D0D-A6AE-666E208457F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58D57D68-D557-4D0D-A6AE-666E208457F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4CADFF2-D60B-470C-8569-41670006AEBD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4CADFF2-D60B-470C-8569-41670006AEBD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4CADFF2-D60B-470C-8569-41670006AEBD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4CADFF2-D60B-470C-8569-41670006AEBD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6348459E-0C7C-48EB-A0D4-000AEEFD1443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6348459E-0C7C-48EB-A0D4-000AEEFD1443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6348459E-0C7C-48EB-A0D4-000AEEFD1443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6348459E-0C7C-48EB-A0D4-000AEEFD1443}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,7 +64,7 @@ Global
 		{C5554E44-92C5-4CB5-A457-21937856F141} = {05A07FA1-0490-4727-A2C6-49DD09BD621D}
 		{58D57D68-D557-4D0D-A6AE-666E208457F3} = {05A07FA1-0490-4727-A2C6-49DD09BD621D}
 		{570CCA35-7F6D-4552-8EFF-47EA458340CF} = {C78B078F-7326-4D76-9B6A-59B90ACFC83C}
-		{B4CADFF2-D60B-470C-8569-41670006AEBD} = {570CCA35-7F6D-4552-8EFF-47EA458340CF}
+		{6348459E-0C7C-48EB-A0D4-000AEEFD1443} = {570CCA35-7F6D-4552-8EFF-47EA458340CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C672D8FB-5088-4D33-BB7A-2E62BDAAE7CF}

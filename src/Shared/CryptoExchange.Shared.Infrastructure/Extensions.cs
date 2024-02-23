@@ -27,7 +27,7 @@ namespace CryptoExchange.Shared.Infrastructure
             return app;
         }
 
-        public static T GetOptions<T>(this IServiceCollection services, string sectionName) where T : new()
+      /*  public static T GetOptions<T>(this IServiceCollection services, string sectionName) where T : new()
         {
             using var serviceProvider = services.BuildServiceProvider();
             var configuration = serviceProvider.GetRequiredService<IConfiguration>();
@@ -39,7 +39,7 @@ namespace CryptoExchange.Shared.Infrastructure
             var options = new T();
             configuration.GetSection(sectionName).Bind(options);
             return options;
-        }
+        } */
 
     }
 }
