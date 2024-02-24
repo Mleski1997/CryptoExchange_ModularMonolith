@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "pAl+MCcvAKk8aiuHWg6vOojsviLD3TUCdCb6PoEMzT3wgTqUcIFhB2Gpwhw5nZMEQV64YgFJpHEHoFvSBPjy9A==",
+  "dgSpecHash": "UTSC7vwrata+rJlpUyv6YwdrPTMTuHqanAevNgIYjCEsu0wAz+r22lHsno45gDSZVSmrJJIXSE3BH9h6jGeccw==",
   "success": true,
   "projectFilePath": "C:\\Users\\micha\\CryptoExchange\\src\\Bootstrapper\\Exchange.Bootstrapper\\Boostrapper.CryptoExchange\\Boostrapper.CryptoExchange.csproj",
   "expectedPackageFiles": [

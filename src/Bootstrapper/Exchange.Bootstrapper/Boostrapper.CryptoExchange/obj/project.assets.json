@@ -2593,6 +2593,7 @@
           "CryptoExchange.Modules.Users.Core": "1.0.0",
           "Microsoft.AspNetCore": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
+          "Microsoft.AspNetCore.Identity": "2.2.0",
           "Microsoft.AspNetCore.Mvc.Core": "2.2.5"
         },
         "compile": {
