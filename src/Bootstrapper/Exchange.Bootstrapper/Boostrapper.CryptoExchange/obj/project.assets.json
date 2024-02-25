@@ -15,6 +15,19 @@
           }
         }
       },
+      "Microsoft.AspNet.Identity.Core/2.2.4": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net45/Microsoft.AspNet.Identity.Core.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Microsoft.AspNetCore/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -2607,6 +2620,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
+          "CryptoExchange.Shared.Abstractions": "1.0.0",
+          "Microsoft.AspNet.Identity.Core": "2.2.4",
           "Microsoft.AspNetCore": "2.2.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "6.0.27",
@@ -2618,6 +2633,16 @@
         },
         "runtime": {
           "bin/placeholder/CryptoExchange.Modules.Users.Core.dll": {}
+        }
+      },
+      "CryptoExchange.Shared.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CryptoExchange.Shared.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CryptoExchange.Shared.Abstractions.dll": {}
         }
       }
     }
@@ -2637,6 +2662,19 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "Microsoft.AspNet.Identity.Core/2.2.4": {
+      "sha512": "s3u/o3iG5h0z7Ggukwo4soPwogD56ZrYbolGxTfw41zkuG6jAXUJT/V3EThqHJXGuCNvWSdSnnwAhPfT9Sn36g==",
+      "type": "package",
+      "path": "microsoft.aspnet.identity.core/2.2.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/Microsoft.AspNet.Identity.Core.dll",
+        "lib/net45/Microsoft.AspNet.Identity.Core.xml",
+        "microsoft.aspnet.identity.core.2.2.4.nupkg.sha512",
+        "microsoft.aspnet.identity.core.nuspec"
       ]
     },
     "Microsoft.AspNetCore/2.2.0": {
@@ -6786,6 +6824,11 @@
       "type": "project",
       "path": "../../../Modules/CryptoExchange.Modules.Users.Core/CryptoExchange.Modules.Users.Core.csproj",
       "msbuildProject": "../../../Modules/CryptoExchange.Modules.Users.Core/CryptoExchange.Modules.Users.Core.csproj"
+    },
+    "CryptoExchange.Shared.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../../../Shared/CryptoExchange.Shared.Abstractions/CryptoExchange.Shared.Abstractions.csproj",
+      "msbuildProject": "../../../Shared/CryptoExchange.Shared.Abstractions/CryptoExchange.Shared.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -6798,6 +6841,7 @@
       "Microsoft.EntityFrameworkCore.Design >= 6.0.27",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.27",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.27",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
       "Microsoft.Extensions.Identity.Core >= 6.0.27",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
@@ -6885,6 +6929,10 @@
             "target": "Package",
             "version": "[6.0.27, )"
           },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
           "Microsoft.Extensions.Identity.Core": {
             "target": "Package",
             "version": "[6.0.27, )"
@@ -6934,5 +6982,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.313\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Identity.Core 2.2.4' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Identity.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
 }

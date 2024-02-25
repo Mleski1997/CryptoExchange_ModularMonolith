@@ -12,3 +12,6 @@ C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\obj\
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\obj\Debug\net6.0\ref\CryptoExchange.Modules.Users.Core.dll
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\bin\Debug\net6.0\CryptoExchange.Modules.Users.Core.runtimeconfig.json
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\obj\Debug\net6.0\CryptoExchange.Modules.Users.Core.genruntimeconfig.cache
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\bin\Debug\net6.0\CryptoExchange.Shared.Abstractions.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\bin\Debug\net6.0\CryptoExchange.Shared.Abstractions.pdb
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\obj\Debug\net6.0\CryptoExchange.Modules.Users.Core.csproj.CopyComplete

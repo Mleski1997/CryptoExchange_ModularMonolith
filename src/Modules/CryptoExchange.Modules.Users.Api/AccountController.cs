@@ -1,12 +1,8 @@
 ﻿using CryptoExchange.Modules.Users.Core.DTO;
 using CryptoExchange.Modules.Users.Core.Entities;
+using CryptoExchange.Modules.Users.Core.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CryptoExchange.Modules.Users.Api
 {
@@ -16,29 +12,20 @@ namespace CryptoExchange.Modules.Users.Api
     {
         private readonly UserManager<User> _userManager;
         private readonly SignInManager<User> _signInManager;
+        private readonly IUserService _userRepository;
 
-        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager)
+        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, IUserService userRepository)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _userRepository = userRepository;
         }
 
-        [HttpPost]
+        [HttpPost("register")]
 
         public async Task<IActionResult> Register(RegisterDto dto)
         {
-            if(ModelState.IsValid)
-            {
-                User user = new()
-                {
-                    FirstName = dto.FirstName,
-                    LastName = dto.LastName,
-                    Email = dto.Email,
-
-                };
-
-                var result = await _userManager.CreateAsync(user, dto.Password);
-            }
+            await _userRepository.AddAsync(dto);   
             return NoContent();
         }
     }

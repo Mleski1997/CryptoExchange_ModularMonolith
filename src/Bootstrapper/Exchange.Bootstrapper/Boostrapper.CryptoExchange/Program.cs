@@ -1,4 +1,7 @@
 using CryptoExchange.Modules.Users.Core.DAL;
+using CryptoExchange.Modules.Users.Core.Entities;
+using CryptoExchange.Modules.Users.Core.Services;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
 namespace Boostrapper.CryptoExchange
@@ -13,6 +16,14 @@ namespace Boostrapper.CryptoExchange
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            builder.Services.AddIdentity<User, IdentityRole>()
+                .AddEntityFrameworkStores<UserDbContext>()
+                .AddDefaultTokenProviders();
+
+            builder.Services.AddScoped<IUserService , UserService>();
+
+
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

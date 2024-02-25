@@ -6,14 +6,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CryptoExchange.Modules.Users.Core.Repository
+namespace CryptoExchange.Modules.Users.Core.Services
 {
-    public interface IUserRepository
+    public interface IUserService
     {
         Task<User> GetAsync(Guid id);
         Task<User> GetAsync(string email);
-        Task<User> AddAsync(RegisterDto registerDto);
-        Task<User> UpdateAsync(User user);
-
+        Task AddAsync(RegisterDto registerDto);
+        Task<bool> UpdateAsync(User user);
     }
 }
