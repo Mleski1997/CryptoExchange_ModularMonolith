@@ -20,10 +20,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Exceptions\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\Shared\CryptoExchange.Shared.Abstractions\CryptoExchange.Shared.Abstractions.csproj" />
   </ItemGroup>
 

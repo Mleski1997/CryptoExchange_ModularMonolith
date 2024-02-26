@@ -21,7 +21,16 @@ namespace Boostrapper.CryptoExchange
                 .AddEntityFrameworkStores<UserDbContext>()
                 .AddDefaultTokenProviders();
 
-            builder.Services.AddScoped<IUserService , UserService>();
+            builder.Services.Configure<IdentityOptions>(options =>
+            {
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequireUppercase = true;
+                options.Password.RequiredLength = 8;
+            }
+            )
+
+            builder.Services.AddScoped<IIdentityService , IdentityService>();
 
 
 
