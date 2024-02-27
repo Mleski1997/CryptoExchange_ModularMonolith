@@ -28,9 +28,10 @@ namespace Boostrapper.CryptoExchange
                 options.Password.RequireUppercase = true;
                 options.Password.RequiredLength = 8;
             }
-            )
+            );
 
             builder.Services.AddScoped<IIdentityService , IdentityService>();
+            builder.Services.AddScoped<ITokenService,  TokenService>();
 
 
 

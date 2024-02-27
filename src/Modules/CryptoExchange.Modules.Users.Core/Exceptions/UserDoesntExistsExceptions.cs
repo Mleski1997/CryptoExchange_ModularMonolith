@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 
 namespace CryptoExchange.Modules.Users.Core.Exceptions
 {
-    public class UserNameAlreadyExistsException : CryptoExchangeException
+    public class UserDoesntExistsExceptions : CryptoExchangeException
     {
         public string UserName { get; set; }
-        public UserNameAlreadyExistsException(string username) : base($"Username `{username} is already exists ")
+        public UserDoesntExistsExceptions(string username) : base($"Invalid username `{username}`")
         {
             UserName = username;
+            
         }
     }
 }

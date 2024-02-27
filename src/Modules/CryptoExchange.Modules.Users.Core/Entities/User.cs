@@ -9,7 +9,7 @@ namespace CryptoExchange.Modules.Users.Core.Entities
 {
     public class User : IdentityUser
     {
-     
+        public bool IsActive { get; set; } = true;
 
     }
 }

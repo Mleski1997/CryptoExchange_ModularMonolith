@@ -4,6 +4,7 @@ using CryptoExchange.Modules.Users.Core.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace CryptoExchange.Modules.Users.Core.Migrations
 {
     [DbContext(typeof(UserDbContext))]
-    partial class UserDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240227102810_init3")]
+    partial class init3
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -115,22 +117,6 @@ namespace CryptoExchange.Modules.Users.Core.Migrations
                         .HasFilter("[NormalizedName] IS NOT NULL");
 
                     b.ToTable("AspNetRoles", (string)null);
-
-                    b.HasData(
-                        new
-                        {
-                            Id = "09dddde2-2d5f-435d-bf62-a85da497695a",
-                            ConcurrencyStamp = "18370df8-62ea-4287-8c0a-21c54886b32b",
-                            Name = "Admin",
-                            NormalizedName = "ADMIN"
-                        },
-                        new
-                        {
-                            Id = "415fdc61-2619-4ebf-b994-e6e3f91b24d7",
-                            ConcurrencyStamp = "069f3bfa-c678-4712-8314-056c386e17e3",
-                            Name = "User",
-                            NormalizedName = "USER"
-                        });
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>

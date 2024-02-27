@@ -10,23 +10,28 @@ namespace CryptoExchange.Modules.Users.Api
     [ApiController]
     public class AccountController : ControllerBase
     {
-        private readonly UserManager<User> _userManager;
-        private readonly SignInManager<User> _signInManager;
-        private readonly IUserService _userRepository;
+       
+        private readonly IIdentityService _identityService;
 
-        public AccountController(UserManager<User> userManager, SignInManager<User> signInManager, IUserService userRepository)
+        public AccountController(IIdentityService identityService)
         {
-            _userManager = userManager;
-            _signInManager = signInManager;
-            _userRepository = userRepository;
+          
+            _identityService = identityService;
         }
 
-        [HttpPost("register")]
+        [HttpPost("Register")]
 
-        public async Task<IActionResult> Register(RegisterDto dto)
+        public async Task<IActionResult> Register(SignUpDto signUpDto)
         {
-            await _userRepository.AddAsync(dto);   
+            await _identityService.SignUpAsync(signUpDto);   
             return NoContent();
         }
+
+        [HttpPost("Login")]
+
+        public async Task <IActionResult> Login(SignInDto signInDto) => Ok(await _identityService.SignInAsync(signInDto));
+       
+           
+        
     }
 }

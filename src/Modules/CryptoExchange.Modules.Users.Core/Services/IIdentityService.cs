@@ -11,10 +11,9 @@ namespace CryptoExchange.Modules.Users.Core.Services
 {
     public interface IIdentityService
     {
-        Task<User> GetAsync(Guid id);
-        Task<User> GetAsync(string email);
-        Task SignUp(SignUpDto singUpDto);
-        Task<JwtToken> SingIn(LoginD)
+       
+        Task SignUpAsync(SignUpDto signUpDto);
+        Task <String> SignInAsync(SignInDto signInDto);
      
     }
 }
