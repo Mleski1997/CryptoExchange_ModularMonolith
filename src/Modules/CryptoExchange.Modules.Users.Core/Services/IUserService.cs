@@ -1,6 +1,5 @@
 ﻿using CryptoExchange.Modules.Users.Core.DTO;
 using CryptoExchange.Modules.Users.Core.Entities;
-using Microsoft.IdentityModel.JsonWebTokens;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,12 +8,11 @@ using System.Threading.Tasks;
 
 namespace CryptoExchange.Modules.Users.Core.Services
 {
-    public interface IIdentityService
+    public interface IUserService
     {
-
-       
-        Task SignUpAsync(SignUpDto signUpDto);
-        Task <String> SignInAsync(SignInDto signInDto);
-     
+        Task<IEnumerable<User>> GetUsers();
+        Task<User> GetUserById(string id);
+        Task DeleteAsync(User user);
+        Task UpdateAsync(UpdateUserDto updateUserDto);
     }
 }

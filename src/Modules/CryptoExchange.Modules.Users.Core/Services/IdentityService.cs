@@ -2,6 +2,7 @@
 using CryptoExchange.Modules.Users.Core.DTO;
 using CryptoExchange.Modules.Users.Core.Entities;
 using CryptoExchange.Modules.Users.Core.Exceptions;
+using CryptoExchange.Modules.Users.Core.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.JsonWebTokens;
@@ -9,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Runtime.CompilerServices;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -19,12 +21,14 @@ namespace CryptoExchange.Modules.Users.Core.Services
         private readonly UserManager<User> _userManager;
         private readonly ITokenService _tokenService;
         private readonly SignInManager<User> _signInManager;
+        private readonly IUserRepository _userRepository;
 
-        public IdentityService(UserManager<User> userManager, SignInManager<User> signInManager, ITokenService tokenService)
+        public IdentityService(UserManager<User> userManager, SignInManager<User> signInManager, ITokenService tokenService, IUserRepository userRepository)
         {
             _userManager = userManager;
             _tokenService = tokenService;
             _signInManager = signInManager;
+            _userRepository = userRepository;
         }
         public async Task SignUpAsync(SignUpDto signUpDto)
         {
@@ -34,7 +38,7 @@ namespace CryptoExchange.Modules.Users.Core.Services
                 throw new EmailAlreadyExistsExcpetion(signUpDto.Email);
             }
 
-            var existUserName = await _userManager.FindByNameAsync(signUpDto.UserName);
+            var existUserName = await _userManager.FindByEmailAsync(signUpDto.UserName);
             if(existUserName != null)
             {
                 throw new UserNameAlreadyExistsException(signUpDto.UserName);
@@ -48,10 +52,6 @@ namespace CryptoExchange.Modules.Users.Core.Services
             };
             await _userManager.CreateAsync(User, signUpDto.Password);
             await _userManager.AddToRoleAsync(User, "User");
-
-
-
-
         }
         public async Task<String> SignInAsync(SignInDto signInDto)
         {
@@ -76,5 +76,8 @@ namespace CryptoExchange.Modules.Users.Core.Services
 
             return _tokenService.CreateToken(user);
         }
+
+        
+      
     }
 }

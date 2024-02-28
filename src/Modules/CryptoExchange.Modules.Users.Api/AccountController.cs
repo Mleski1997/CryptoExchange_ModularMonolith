@@ -15,10 +15,8 @@ namespace CryptoExchange.Modules.Users.Api
 
         public AccountController(IIdentityService identityService)
         {
-          
             _identityService = identityService;
         }
-
         [HttpPost("Register")]
 
         public async Task<IActionResult> Register(SignUpDto signUpDto)
@@ -31,7 +29,5 @@ namespace CryptoExchange.Modules.Users.Api
 
         public async Task <IActionResult> Login(SignInDto signInDto) => Ok(await _identityService.SignInAsync(signInDto));
        
-           
-        
     }
 }

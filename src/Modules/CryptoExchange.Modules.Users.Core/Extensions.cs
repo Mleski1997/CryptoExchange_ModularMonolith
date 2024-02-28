@@ -1,5 +1,6 @@
 ﻿using CryptoExchange.Modules.Users.Core.DAL;
 using CryptoExchange.Modules.Users.Core.Entities;
+using CryptoExchange.Modules.Users.Core.Repository;
 using CryptoExchange.Modules.Users.Core.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
@@ -34,6 +35,8 @@ namespace CryptoExchange.Modules.Users.Core
 
             services.AddScoped<IIdentityService, IdentityService>();
             services.AddScoped<ITokenService, TokenService>();
+            services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<IUserService, UserService>();
 
             return services;
         }
