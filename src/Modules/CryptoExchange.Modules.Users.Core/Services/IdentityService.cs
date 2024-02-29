@@ -2,7 +2,7 @@
 using CryptoExchange.Modules.Users.Core.DTO;
 using CryptoExchange.Modules.Users.Core.Entities;
 using CryptoExchange.Modules.Users.Core.Exceptions;
-using CryptoExchange.Modules.Users.Core.Repository;
+
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.JsonWebTokens;
@@ -21,14 +21,14 @@ namespace CryptoExchange.Modules.Users.Core.Services
         private readonly UserManager<User> _userManager;
         private readonly ITokenService _tokenService;
         private readonly SignInManager<User> _signInManager;
-        private readonly IUserRepository _userRepository;
+      
 
-        public IdentityService(UserManager<User> userManager, SignInManager<User> signInManager, ITokenService tokenService, IUserRepository userRepository)
+        public IdentityService(UserManager<User> userManager, SignInManager<User> signInManager, ITokenService tokenService)
         {
             _userManager = userManager;
             _tokenService = tokenService;
             _signInManager = signInManager;
-            _userRepository = userRepository;
+           
         }
         public async Task SignUpAsync(SignUpDto signUpDto)
         {

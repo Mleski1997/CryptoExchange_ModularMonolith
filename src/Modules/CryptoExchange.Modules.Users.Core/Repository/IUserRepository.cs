@@ -1,5 +1,4 @@
-﻿using CryptoExchange.Modules.Users.Core.DTO;
-using CryptoExchange.Modules.Users.Core.Entities;
+﻿using CryptoExchange.Modules.Users.Core.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,10 +9,7 @@ namespace CryptoExchange.Modules.Users.Core.Repository
 {
     public interface IUserRepository
     {
-        Task<User> GetUserById(string id);
         Task<IReadOnlyList<User>> GetAllUsers();
-        Task UpdateAsync(User user);
-        Task DeleteAsync(User user);
-
+        Task<User> GetById(string id);
     }
 }

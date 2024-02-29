@@ -1,6 +1,4 @@
-﻿using CryptoExchange.Modules.Users.Core.DAL;
-using CryptoExchange.Modules.Users.Core.DTO;
-using CryptoExchange.Modules.Users.Core.Entities;
+﻿using CryptoExchange.Modules.Users.Core.Entities;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using System;
@@ -13,27 +11,15 @@ namespace CryptoExchange.Modules.Users.Core.Repository
 {
     public class UserRepository : IUserRepository
     {
-        private readonly UserDbContext _dbContext;
+        private readonly UserManager<User> _userManager;
 
-        public UserRepository(UserDbContext dbContext)
+        public UserRepository(UserManager<User> userManager)
         {
-            _dbContext = dbContext;
+            _userManager = userManager;
         }
+        public async Task<IReadOnlyList<User>> GetAllUsers() => await _userManager.Users.ToListAsync();
 
-        public async Task<User> GetUserById(string id) => await _dbContext.Users.FirstOrDefaultAsync(u => u.Id == id);
-        public async Task<IReadOnlyList<User>> GetAllUsers() => await _dbContext.Users.ToListAsync();
+        public async Task<User> GetById(string id) => await _userManager.FindByIdAsync(id);
        
-
-
-        public async Task DeleteAsync(User user)
-        {
-            _dbContext.Remove(user);
-            await _dbContext.SaveChangesAsync();
-        }
-        public async Task UpdateAsync(User user)
-        {
-            _dbContext.Update(user);
-            await _dbContext.SaveChangesAsync();
-        }
     }
 }

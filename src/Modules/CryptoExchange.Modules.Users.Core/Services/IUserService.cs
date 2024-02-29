@@ -10,9 +10,7 @@ namespace CryptoExchange.Modules.Users.Core.Services
 {
     public interface IUserService
     {
-        Task<IEnumerable<User>> GetUsers();
-        Task<User> GetUserById(string id);
-        Task DeleteAsync(User user);
-        Task UpdateAsync(UpdateUserDto updateUserDto);
+        Task<IReadOnlyList<UserDto>> GetAllUsers();
+        Task<UserDto> GetById(string id);
     }
 }

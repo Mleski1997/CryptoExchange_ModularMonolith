@@ -22,8 +22,16 @@ namespace CryptoExchange.Modules.Users.Api
         }
 
         [HttpGet]
-        public async Task<ActionResult<UserDto>> Get() => Ok(await _userService.GetUsers());
+        public async Task<ActionResult<UserDto>> GetAllUsers() => Ok(await _userService.GetAllUsers());
 
+        [HttpGet("{id}")]
+        public async Task<ActionResult<UserDto>> GetUserById(string id) => await _userService.GetById(id);
+        
+
+           
+         
+            
+ 
        
         
 

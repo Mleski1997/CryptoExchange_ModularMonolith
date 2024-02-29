@@ -2,6 +2,8 @@
 using CryptoExchange.Modules.Users.Core.Entities;
 using CryptoExchange.Modules.Users.Core.Exceptions;
 using CryptoExchange.Modules.Users.Core.Repository;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -18,42 +20,38 @@ namespace CryptoExchange.Modules.Users.Core.Services
         {
             _userRepository = userRepository;
         }
-        public Task<User> GetUserById(string id)
+        public async Task<IReadOnlyList<UserDto>> GetAllUsers()
         {
-            var result =  _userRepository.GetUserById(id);
-            if (result == null)
+            var users = await _userRepository.GetAllUsers();
+            var userDtos = users.Select(user => new UserDto
             {
-                throw new UserDoesntExistsExceptions(id);
+                Id = user.Id,
+                UserName = user.UserName,
+                Email = user.Email,
+            }).ToList();
+            return userDtos;
+        }
+
+        public async Task<UserDto> GetById(string id)
+        {
+            var user = await _userRepository.GetById(id);
+            if (user == null)
+            {
+                throw new UserIdDoesntExistsExceptions(id);
             }
-            return result;
 
-        }
-        public async Task<IEnumerable<User>> GetUsers()
-        {
-            var entities = await _userRepository.GetAllUsers();
-            return entities.Select(x => new User
+            var userDto = new UserDto
             {
-                Id = x.Id,
-                UserName = x.UserName,
-                Email = x.Email,
+                Id = user.Id,
+                UserName = user.UserName,
+                Email = user.Email,
+            };
+            return userDto;
 
-            });
-
-        }
 
         
+            
 
-        public Task DeleteAsync(User user) => _userRepository.DeleteAsync(user);
-
-
-
-
-
-        public async Task UpdateAsync(UpdateUserDto updateUserDto)
-        {
-           
-
-         
         }
     }
 }
