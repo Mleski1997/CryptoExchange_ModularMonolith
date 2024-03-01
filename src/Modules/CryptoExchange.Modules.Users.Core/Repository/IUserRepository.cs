@@ -11,5 +11,7 @@ namespace CryptoExchange.Modules.Users.Core.Repository
     {
         Task<IReadOnlyList<User>> GetAllUsers();
         Task<User> GetById(string id);
+        Task Update (User user);
+        Task Delete (User user);
     }
 }

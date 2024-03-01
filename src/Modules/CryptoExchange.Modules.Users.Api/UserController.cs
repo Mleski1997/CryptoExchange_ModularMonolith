@@ -25,7 +25,15 @@ namespace CryptoExchange.Modules.Users.Api
         public async Task<ActionResult<UserDto>> GetAllUsers() => Ok(await _userService.GetAllUsers());
 
         [HttpGet("{id}")]
-        public async Task<ActionResult<UserDto>> GetUserById(string id) => await _userService.GetById(id);
+        public async Task<ActionResult<UserDto>> GetUserById(string id)
+        {
+            if(!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+
+            return Ok(await _userService.GetById(id));
+        }
         
 
            

@@ -20,6 +20,6 @@ namespace CryptoExchange.Modules.Users.Core.Repository
         public async Task<IReadOnlyList<User>> GetAllUsers() => await _userManager.Users.ToListAsync();
 
         public async Task<User> GetById(string id) => await _userManager.FindByIdAsync(id);
-       
+
     }
 }
