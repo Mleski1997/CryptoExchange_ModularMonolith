@@ -12,5 +12,7 @@ namespace CryptoExchange.Modules.Users.Core.Services
     {
         Task<IReadOnlyList<UserDto>> GetAllUsers();
         Task<UserDto> GetById(string id);
+        Task DeleteUser(string id);
+        Task UpdateUser(UpdateUserDto dto);
     }
 }

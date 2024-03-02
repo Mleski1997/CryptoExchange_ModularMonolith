@@ -34,6 +34,21 @@ namespace CryptoExchange.Modules.Users.Api
 
             return Ok(await _userService.GetById(id));
         }
+
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteUser(string id)
+        {
+            await _userService.DeleteUser(id);
+            return NoContent();
+        }
+
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateUser(string id, UpdateUserDto dto)
+        {
+            dto.id = id;
+            await _userService.UpdateUser(dto);
+            return NoContent();
+        }
         
 
            

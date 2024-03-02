@@ -20,6 +20,17 @@ namespace CryptoExchange.Modules.Users.Core.Services
         {
             _userRepository = userRepository;
         }
+
+        public async Task DeleteUser(string id)
+        {
+            var user = await _userRepository.GetById(id);
+            if (user is null)
+            {
+                throw new UserIdDoesntExistsExceptions(id);
+            }
+             await _userRepository.Delete(user);
+        }
+
         public async Task<IReadOnlyList<UserDto>> GetAllUsers()
         {
             var users = await _userRepository.GetAllUsers();
@@ -52,6 +63,21 @@ namespace CryptoExchange.Modules.Users.Core.Services
         
             
 
+        }
+
+        public async Task UpdateUser(UpdateUserDto dto)
+        {
+            var user = await _userRepository.GetById(dto.id);
+            if (user is null)
+            {
+                throw new UserIdDoesntExistsExceptions(dto.id);
+            }
+
+            user.UserName = dto.UserName;
+            user.Email = dto.Email;
+            user.IsActive = dto.IsActive;
+
+            await _userRepository.Update(user);
         }
     }
 }

@@ -17,9 +17,15 @@ namespace CryptoExchange.Modules.Users.Core.Repository
         {
             _userManager = userManager;
         }
+
+        public Task Delete(User user) => _userManager.DeleteAsync(user);
+
+
         public async Task<IReadOnlyList<User>> GetAllUsers() => await _userManager.Users.ToListAsync();
 
         public async Task<User> GetById(string id) => await _userManager.FindByIdAsync(id);
+
+        public async Task Update(User user) => await _userManager.UpdateAsync(user);
 
     }
 }
