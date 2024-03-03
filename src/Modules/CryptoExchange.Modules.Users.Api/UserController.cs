@@ -45,6 +45,10 @@ namespace CryptoExchange.Modules.Users.Api
         [HttpPut("{id}")]
         public async Task<IActionResult> UpdateUser(string id, UpdateUserDto dto)
         {
+            if (ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
             dto.id = id;
             await _userService.UpdateUser(dto);
             return NoContent();
