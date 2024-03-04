@@ -10,3 +10,6 @@ C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\ob
 C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\refint\CryptoExchange.Shared.Infrastructure.dll
 C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\CryptoExchange.Shared.Infrastructure.pdb
 C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\ref\CryptoExchange.Shared.Infrastructure.dll
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\bin\Debug\net6.0\CryptoExchange.Shared.Abstractions.dll
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\bin\Debug\net6.0\CryptoExchange.Shared.Abstractions.pdb
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Infrastructure\obj\Debug\net6.0\CryptoExchange.Shared.Infrastructure.csproj.CopyComplete

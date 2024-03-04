@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "CryptoExchange.Modules.Wallets.Api/1.0.0": {
+        "runtime": {
+          "CryptoExchange.Modules.Wallets.Api.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CryptoExchange.Modules.Wallets.Api/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

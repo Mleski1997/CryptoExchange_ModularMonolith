@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Shared.Infra
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bootstrapper", "Bootstrapper", "{570CCA35-7F6D-4552-8EFF-47EA458340CF}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Boostrapper.CryptoExchange", "src\Bootstrapper\Exchange.Bootstrapper\Boostrapper.CryptoExchange\Boostrapper.CryptoExchange.csproj", "{6348459E-0C7C-48EB-A0D4-000AEEFD1443}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Shared.Abstractions", "src\Shared\CryptoExchange.Shared.Abstractions\CryptoExchange.Shared.Abstractions.csproj", "{4C5E4277-61CF-4085-A0CB-81FA9BC74C2D}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Users", "Users", "{1CB2F2BD-4D7D-4FD2-8D21-12BFFE7246EC}"
@@ -27,13 +25,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.User
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Wallets", "Wallets", "{E0DBE549-1F42-4842-9F2D-9A327C5F3A8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Wallets.Api", "src\Modules\CryptoExchange.Modules.Wallets.Api\CryptoExchange.Modules.Wallets.Api.csproj", "{6D2EC416-9C12-40ED-B7C3-2AEDD4D45ED9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Wallets.Api", "src\Modules\CryptoExchange.Modules.Wallets.Api\CryptoExchange.Modules.Wallets.Api.csproj", "{6D2EC416-9C12-40ED-B7C3-2AEDD4D45ED9}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tokens", "Tokens", "{64094F49-9378-40AB-9F99-238656E8385B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Tokens.Core", "src\Modules\CryptoExchange.Modules.Tokens.Core\CryptoExchange.Modules.Tokens.Core.csproj", "{DC1FE338-6E4D-4E2B-8C26-43973D0F91A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Tokens.Core", "src\Modules\CryptoExchange.Modules.Tokens.Core\CryptoExchange.Modules.Tokens.Core.csproj", "{DC1FE338-6E4D-4E2B-8C26-43973D0F91A8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Wallets.Core", "src\Modules\CryptoExchange.Modules.Wallets.Core\CryptoExchange.Modules.Wallets.Core.csproj", "{CD2FCE78-1763-436F-974B-2563C73AFA68}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Wallets.Core", "src\Modules\CryptoExchange.Modules.Wallets.Core\CryptoExchange.Modules.Wallets.Core.csproj", "{CD2FCE78-1763-436F-974B-2563C73AFA68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrapper.CryptoExchange", "src\Bootstrapper\Bootstrapper.CryptoExchange\Bootstrapper.CryptoExchange.csproj", "{AFD097A7-6114-42D7-B2E5-3735E9EA0E02}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +45,6 @@ Global
 		{58D57D68-D557-4D0D-A6AE-666E208457F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58D57D68-D557-4D0D-A6AE-666E208457F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58D57D68-D557-4D0D-A6AE-666E208457F3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6348459E-0C7C-48EB-A0D4-000AEEFD1443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6348459E-0C7C-48EB-A0D4-000AEEFD1443}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6348459E-0C7C-48EB-A0D4-000AEEFD1443}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6348459E-0C7C-48EB-A0D4-000AEEFD1443}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4C5E4277-61CF-4085-A0CB-81FA9BC74C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4C5E4277-61CF-4085-A0CB-81FA9BC74C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C5E4277-61CF-4085-A0CB-81FA9BC74C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -73,6 +69,10 @@ Global
 		{CD2FCE78-1763-436F-974B-2563C73AFA68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD2FCE78-1763-436F-974B-2563C73AFA68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD2FCE78-1763-436F-974B-2563C73AFA68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD097A7-6114-42D7-B2E5-3735E9EA0E02}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD097A7-6114-42D7-B2E5-3735E9EA0E02}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD097A7-6114-42D7-B2E5-3735E9EA0E02}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD097A7-6114-42D7-B2E5-3735E9EA0E02}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -82,7 +82,6 @@ Global
 		{05A07FA1-0490-4727-A2C6-49DD09BD621D} = {C78B078F-7326-4D76-9B6A-59B90ACFC83C}
 		{58D57D68-D557-4D0D-A6AE-666E208457F3} = {05A07FA1-0490-4727-A2C6-49DD09BD621D}
 		{570CCA35-7F6D-4552-8EFF-47EA458340CF} = {C78B078F-7326-4D76-9B6A-59B90ACFC83C}
-		{6348459E-0C7C-48EB-A0D4-000AEEFD1443} = {570CCA35-7F6D-4552-8EFF-47EA458340CF}
 		{4C5E4277-61CF-4085-A0CB-81FA9BC74C2D} = {05A07FA1-0490-4727-A2C6-49DD09BD621D}
 		{1CB2F2BD-4D7D-4FD2-8D21-12BFFE7246EC} = {89601835-E5C7-4780-A137-5D7C5C80B29B}
 		{2BB1D485-2E51-47B2-9AFB-CE4F29A3647E} = {1CB2F2BD-4D7D-4FD2-8D21-12BFFE7246EC}
@@ -92,6 +91,7 @@ Global
 		{64094F49-9378-40AB-9F99-238656E8385B} = {89601835-E5C7-4780-A137-5D7C5C80B29B}
 		{DC1FE338-6E4D-4E2B-8C26-43973D0F91A8} = {64094F49-9378-40AB-9F99-238656E8385B}
 		{CD2FCE78-1763-436F-974B-2563C73AFA68} = {E0DBE549-1F42-4842-9F2D-9A327C5F3A8B}
+		{AFD097A7-6114-42D7-B2E5-3735E9EA0E02} = {570CCA35-7F6D-4552-8EFF-47EA458340CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C672D8FB-5088-4D33-BB7A-2E62BDAAE7CF}

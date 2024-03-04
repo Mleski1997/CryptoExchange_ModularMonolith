@@ -22,6 +22,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\CryptoExchange.Shared.Abstractions\CryptoExchange.Shared.Abstractions.csproj" />
+    <ProjectReference Include="..\..\Shared\CryptoExchange.Shared.Infrastructure\CryptoExchange.Shared.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

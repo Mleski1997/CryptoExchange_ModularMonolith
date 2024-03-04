@@ -15,3 +15,5 @@ C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\obj\
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\bin\Debug\net6.0\CryptoExchange.Shared.Abstractions.dll
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\bin\Debug\net6.0\CryptoExchange.Shared.Abstractions.pdb
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\obj\Debug\net6.0\CryptoExchange.Modules.Users.Core.csproj.CopyComplete
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\bin\Debug\net6.0\CryptoExchange.Shared.Infrastructure.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\bin\Debug\net6.0\CryptoExchange.Shared.Infrastructure.pdb

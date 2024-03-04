@@ -2,8 +2,10 @@ using CryptoExchange.Modules.Users.Core;
 using CryptoExchange.Modules.Users.Core.DAL;
 using CryptoExchange.Modules.Users.Core.Entities;
 using CryptoExchange.Modules.Users.Core.Services;
+using CryptoExchange.Modules.Wallets.Core.DAL;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
 namespace Boostrapper.CryptoExchange
@@ -13,10 +15,6 @@ namespace Boostrapper.CryptoExchange
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
-
-
-            builder.Services.AddCore(builder.Configuration);
-          
 
 
             builder.Services.AddControllers();

@@ -2264,6 +2264,16 @@
         "runtime": {
           "lib/netcoreapp2.1/_._": {}
         }
+      },
+      "CryptoExchange.Shared.Abstractions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/CryptoExchange.Shared.Abstractions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CryptoExchange.Shared.Abstractions.dll": {}
+        }
       }
     }
   },
@@ -6086,10 +6096,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "CryptoExchange.Shared.Abstractions/1.0.0": {
+      "type": "project",
+      "path": "../CryptoExchange.Shared.Abstractions/CryptoExchange.Shared.Abstractions.csproj",
+      "msbuildProject": "../CryptoExchange.Shared.Abstractions/CryptoExchange.Shared.Abstractions.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "CryptoExchange.Shared.Abstractions >= 1.0.0",
       "Microsoft.AspNetCore >= 2.2.0",
       "Microsoft.AspNetCore.Hosting.Abstractions >= 2.2.0",
       "Microsoft.AspNetCore.Http >= 2.2.2",
@@ -6136,7 +6152,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Abstractions\\CryptoExchange.Shared.Abstractions.csproj": {
+              "projectPath": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Abstractions\\CryptoExchange.Shared.Abstractions.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

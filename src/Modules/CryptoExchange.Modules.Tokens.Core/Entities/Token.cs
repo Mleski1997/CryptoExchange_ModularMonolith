@@ -1,4 +1,4 @@
-﻿using CryptoExchange.Modules.Wallets.Core.Entities;
+﻿
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,8 +14,8 @@ namespace CryptoExchange.Modules.Tokens.Core.Entities
         public double Price { get; set; }
 
 
-        public Guid WalletId { get; set; }
-        public Wallet Wallet { get; set; }
+      
+        
         
 
     }

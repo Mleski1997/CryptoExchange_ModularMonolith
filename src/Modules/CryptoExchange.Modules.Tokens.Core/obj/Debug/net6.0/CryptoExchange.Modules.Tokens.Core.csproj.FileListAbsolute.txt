@@ -1,0 +1,12 @@
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Tokens.Core\obj\Debug\net6.0\CryptoExchange.Modules.Tokens.Core.csproj.AssemblyReference.cache
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Tokens.Core\obj\Debug\net6.0\CryptoExchange.Modules.Tokens.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Tokens.Core\obj\Debug\net6.0\CryptoExchange.Modules.Tokens.Core.AssemblyInfoInputs.cache
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Tokens.Core\obj\Debug\net6.0\CryptoExchange.Modules.Tokens.Core.AssemblyInfo.cs
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Tokens.Core\obj\Debug\net6.0\CryptoExchange.Modules.Tokens.Core.csproj.CoreCompileInputs.cache
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Tokens.Core\bin\Debug\net6.0\CryptoExchange.Modules.Tokens.Core.deps.json
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Tokens.Core\bin\Debug\net6.0\CryptoExchange.Modules.Tokens.Core.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Tokens.Core\bin\Debug\net6.0\CryptoExchange.Modules.Tokens.Core.pdb
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Tokens.Core\obj\Debug\net6.0\CryptoExchange.Modules.Tokens.Core.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Tokens.Core\obj\Debug\net6.0\refint\CryptoExchange.Modules.Tokens.Core.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Tokens.Core\obj\Debug\net6.0\CryptoExchange.Modules.Tokens.Core.pdb
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Tokens.Core\obj\Debug\net6.0\ref\CryptoExchange.Modules.Tokens.Core.dll

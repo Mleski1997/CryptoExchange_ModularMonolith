@@ -28,4 +28,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Modules\CryptoExchange.Modules.Users.Api\CryptoExchange.Modules.Users.Api.csproj" />
+    <ProjectReference Include="..\..\..\Modules\CryptoExchange.Modules.Users.Core\CryptoExchange.Modules.Users.Core.csproj" />
+    <ProjectReference Include="..\..\..\Modules\CryptoExchange.Modules.Wallets.Core\CryptoExchange.Modules.Wallets.Core.csproj" />
+  </ItemGroup>
+
 </Project>
