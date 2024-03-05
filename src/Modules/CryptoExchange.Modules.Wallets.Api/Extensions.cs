@@ -5,14 +5,15 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
 
 namespace CryptoExchange.Modules.Wallets.Api
 {
     public static class Extensions
     {
-        public static IServiceCollection AddWallets(this IServiceCollection services)
+        public static IServiceCollection AddWallets(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddCore();
+            services.AddCore(configuration);
             return services;
         }
     }

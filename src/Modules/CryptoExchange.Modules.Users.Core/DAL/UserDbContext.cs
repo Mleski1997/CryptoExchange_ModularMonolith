@@ -12,17 +12,16 @@ namespace CryptoExchange.Modules.Users.Core.DAL
 {
     public class UserDbContext : IdentityDbContext<User>
     {
-        public UserDbContext(DbContextOptions<UserDbContext> options) : base(options) 
-        { 
-        
-            
-        
+        public UserDbContext(DbContextOptions<UserDbContext> options) : base(options)
+        {
         }
-   
+
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            
+         
+ 
             modelBuilder.HasDefaultSchema("users");
             List<IdentityRole> roles = new List<IdentityRole>()
             {
@@ -40,6 +39,7 @@ namespace CryptoExchange.Modules.Users.Core.DAL
 
             };
             modelBuilder.Entity<IdentityRole>().HasData(roles);
+            base.OnModelCreating(modelBuilder);
 
         }
     }

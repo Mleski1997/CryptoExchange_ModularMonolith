@@ -15,9 +15,9 @@ namespace CryptoExchange.Modules.Wallets.Core
 {
     public static class Extensions
     {
-        public static IServiceCollection AddCore(this IServiceCollection services)
+        public static IServiceCollection AddCore(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddPostgres<WalletsDbContext>();
+            services.AddPostgres<WalletsDbContext>(configuration);
             services.AddScoped<IWalletRepository, WalletRepository>();
 
             return services;   

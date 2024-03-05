@@ -12,9 +12,9 @@ namespace CryptoExchange.Modules.Users.Core.Services
     public interface IIdentityService
     {
 
-       
+
         Task SignUpAsync(SignUpDto signUpDto);
-        Task <String> SignInAsync(SignInDto signInDto);
-     
+        Task<String> SignInAsync(SignInDto signInDto);
+
     }
 }

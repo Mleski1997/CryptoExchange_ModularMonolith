@@ -27,7 +27,7 @@ namespace CryptoExchange.Modules.Users.Api
         [HttpGet("{id}")]
         public async Task<ActionResult<UserDto>> GetUserById(string id)
         {
-            if(!ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
                 return BadRequest(ModelState);
             }
@@ -53,14 +53,7 @@ namespace CryptoExchange.Modules.Users.Api
             await _userService.UpdateUser(dto);
             return NoContent();
         }
-        
 
-           
-         
-            
- 
-       
-        
 
     }
 }

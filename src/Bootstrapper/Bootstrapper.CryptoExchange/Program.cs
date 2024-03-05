@@ -9,6 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using CryptoExchange.Modules.Wallets.Api;
 using CryptoExchange.Shared.Infrastructure;
+using CryptoExchange.Modules.Users.Api;
 
 namespace Boostrapper.CryptoExchange
 {
@@ -20,7 +21,9 @@ namespace Boostrapper.CryptoExchange
             
            
 
-            builder.Services.AddWallets();
+            builder.Services.AddWallets(builder.Configuration);
+            builder.Services.AddUsers(builder.Configuration);
+
             builder.Services.AddInfrastructure();
 
             builder.Services.AddControllers();

@@ -10,9 +10,9 @@ namespace CryptoExchange.Modules.Users.Core.Exceptions
     public class UserIsNotActiveExcepetion : CryptoExchangeException
     {
         public string Id { get; set; }
-        public UserIsNotActiveExcepetion(string id) : base ($"User with ID `{id}` is not active")
+        public UserIsNotActiveExcepetion(string id) : base($"User with ID `{id}` is not active")
         {
-            Id = id;   
+            Id = id;
         }
     }
 }

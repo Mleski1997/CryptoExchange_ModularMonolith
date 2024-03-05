@@ -11,7 +11,7 @@ namespace CryptoExchange.Modules.Users.Core.Exceptions
     {
         public WrongPasswordException() : base("Invalid Password")
         {
-            
+
         }
     }
 }

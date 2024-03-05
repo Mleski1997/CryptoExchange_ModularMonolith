@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LV5WbeXT8CLh6InmxRvXkE5T4Fns9ObuVFugdL/LAtPVzo6HDnuTSynqYuvyVZWeol8z0/dvDYRrvWn8VUHygg==",
+  "dgSpecHash": "fzGA6GjPIDzq2crqpZf4VUrEDoaXSQ2mCDart0FeFYHkrnoSx6Xu5+ZCEtrt/xxSnzny2FW9O4Le4yIjMcxucg==",
   "success": true,
   "projectFilePath": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Abstractions\\CryptoExchange.Shared.Abstractions.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\micha\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.27\\microsoft.windowsdesktop.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\micha\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.27\\microsoft.netcore.app.ref.6.0.27.nupkg.sha512",
-    "C:\\Users\\micha\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.27\\microsoft.aspnetcore.app.ref.6.0.27.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

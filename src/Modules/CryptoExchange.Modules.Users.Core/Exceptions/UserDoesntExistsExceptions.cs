@@ -13,7 +13,7 @@ namespace CryptoExchange.Modules.Users.Core.Exceptions
         public UserDoesntExistsExceptions(string username) : base($"Invalid username `{username}`")
         {
             UserName = username;
-            
+
         }
     }
 }

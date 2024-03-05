@@ -1,0 +1,12 @@
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Abstractions\bin\Debug\net8.0\CryptoExchange.Shared.Abstractions.deps.json
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Abstractions\bin\Debug\net8.0\CryptoExchange.Shared.Abstractions.dll
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Abstractions\bin\Debug\net8.0\CryptoExchange.Shared.Abstractions.pdb
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Abstractions\obj\Debug\net8.0\CryptoExchange.Shared.Abstractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Abstractions\obj\Debug\net8.0\CryptoExchange.Shared.Abstractions.AssemblyInfoInputs.cache
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Abstractions\obj\Debug\net8.0\CryptoExchange.Shared.Abstractions.AssemblyInfo.cs
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Abstractions\obj\Debug\net8.0\CryptoExchange.Shared.Abstractions.csproj.CoreCompileInputs.cache
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Abstractions\obj\Debug\net8.0\CryptoExchange.Shared.Abstractions.sourcelink.json
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Abstractions\obj\Debug\net8.0\CryptoExchange.Shared.Abstractions.dll
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Abstractions\obj\Debug\net8.0\refint\CryptoExchange.Shared.Abstractions.dll
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Abstractions\obj\Debug\net8.0\CryptoExchange.Shared.Abstractions.pdb
+C:\Users\micha\CryptoExchange\src\Shared\CryptoExchange.Shared.Abstractions\obj\Debug\net8.0\ref\CryptoExchange.Shared.Abstractions.dll

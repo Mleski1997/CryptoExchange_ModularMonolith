@@ -1,7 +1,9 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Graph.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,17 +29,20 @@ namespace CryptoExchange.Shared.Infrastructure.Servies
         {
             var dbContextTypes = AppDomain.CurrentDomain.GetAssemblies()
                 .SelectMany(x => x.GetTypes())
-                .Where(x => typeof(DbContext).IsAssignableFrom(x) && !x.IsInterface && x != typeof(DbContext));
+                .Where(x => (typeof(DbContext).IsAssignableFrom(x) && !x.IsAbstract && !x.IsInterface)
+                    && (x != typeof(DbContext) && x != typeof(IdentityDbContext) && !x.IsGenericTypeDefinition));
+
 
             using var scoper = _serviceProvider.CreateScope();
             foreach (var dbContextType in dbContextTypes)
             {
                 var dbContext = scoper.ServiceProvider.GetRequiredService(dbContextType) as DbContext;
-                await dbContext.Database.MigrateAsync(cancellationToken);
-
+                if (dbContext != null)
+                {
+                    await dbContext.Database.MigrateAsync(cancellationToken);
+                }
             }
         }
-
         public Task StopAsync(CancellationToken cancellationToken) => Task.CompletedTask;
        
     }

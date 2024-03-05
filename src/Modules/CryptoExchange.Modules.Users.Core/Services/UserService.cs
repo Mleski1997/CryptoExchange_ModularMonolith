@@ -28,7 +28,7 @@ namespace CryptoExchange.Modules.Users.Core.Services
             {
                 throw new UserIdDoesntExistsExceptions(id);
             }
-             await _userRepository.Delete(user);
+            await _userRepository.Delete(user);
         }
 
         public async Task<IReadOnlyList<UserDto>> GetAllUsers()
@@ -60,8 +60,8 @@ namespace CryptoExchange.Modules.Users.Core.Services
             return userDto;
 
 
-        
-            
+
+
 
         }
 

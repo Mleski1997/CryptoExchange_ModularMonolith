@@ -21,25 +21,25 @@ namespace CryptoExchange.Modules.Users.Core.Services
         private readonly UserManager<User> _userManager;
         private readonly ITokenService _tokenService;
         private readonly SignInManager<User> _signInManager;
-      
+
 
         public IdentityService(UserManager<User> userManager, SignInManager<User> signInManager, ITokenService tokenService)
         {
             _userManager = userManager;
             _tokenService = tokenService;
             _signInManager = signInManager;
-           
+
         }
         public async Task SignUpAsync(SignUpDto signUpDto)
         {
             var existEmail = await _userManager.FindByEmailAsync(signUpDto.Email);
-            if(existEmail != null)
+            if (existEmail != null)
             {
                 throw new EmailAlreadyExistsExcpetion(signUpDto.Email);
             }
 
             var existUserName = await _userManager.FindByEmailAsync(signUpDto.UserName);
-            if(existUserName != null)
+            if (existUserName != null)
             {
                 throw new UserNameAlreadyExistsException(signUpDto.UserName);
             }
@@ -61,7 +61,7 @@ namespace CryptoExchange.Modules.Users.Core.Services
                 throw new UserDoesntExistsExceptions(signInDto.UserName);
             }
 
-            if(!user.IsActive) 
+            if (!user.IsActive)
             {
                 throw new UserIsNotActiveExcepetion(user.Id);
             }
@@ -77,7 +77,7 @@ namespace CryptoExchange.Modules.Users.Core.Services
             return _tokenService.CreateToken(user);
         }
 
-        
-      
+
+
     }
 }
