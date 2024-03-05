@@ -3,12 +3,12 @@ using System;
 using CryptoExchange.Modules.Wallets.Core.DAL;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
-using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
+using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 #nullable disable
 
-namespace CryptoExchange.Modules.Wallets.Core.Migrations
+namespace CryptoExchange.Modules.Wallets.Core.DAL.Migrations
 {
     [DbContext(typeof(WalletsDbContext))]
     partial class WalletsDbContextModelSnapshot : ModelSnapshot
@@ -17,32 +17,34 @@ namespace CryptoExchange.Modules.Wallets.Core.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
+                .HasDefaultSchema("wallet")
                 .HasAnnotation("ProductVersion", "6.0.27")
-                .HasAnnotation("Relational:MaxIdentifierLength", 128);
+                .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
-            SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
+            NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
             modelBuilder.Entity("CryptoExchange.Modules.Wallets.Core.Entities.Wallet", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
-                        .HasColumnType("uniqueidentifier");
+                        .HasColumnType("uuid");
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("datetime2");
+                        .HasColumnType("timestamp with time zone");
 
                     b.Property<double>("TotalSaldo")
-                        .HasColumnType("float");
+                        .HasColumnType("double precision");
 
                     b.Property<string>("WalletAdress")
-                        .HasColumnType("nvarchar(max)");
+                        .HasColumnType("text");
 
                     b.Property<string>("WalletName")
-                        .HasColumnType("nvarchar(max)");
+                        .IsRequired()
+                        .HasColumnType("text");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Wallets");
+                    b.ToTable("Wallets", "wallet");
                 });
 #pragma warning restore 612, 618
         }

@@ -17,3 +17,5 @@ C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Core\ob
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Core\obj\Debug\net6.0\ref\CryptoExchange.Modules.Wallets.Core.dll
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Core\bin\Debug\net6.0\CryptoExchange.Shared.Infrastructure.dll
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Core\bin\Debug\net6.0\CryptoExchange.Shared.Infrastructure.pdb
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Core\bin\Debug\net6.0\CryptoExchange.Modules.Wallets.Core.runtimeconfig.json
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Core\obj\Debug\net6.0\CryptoExchange.Modules.Wallets.Core.genruntimeconfig.cache

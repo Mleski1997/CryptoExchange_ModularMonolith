@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using CryptoExchange.Modules.Wallets.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;

@@ -12,6 +12,11 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.27">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="6.0.22" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.2.3" />
   </ItemGroup>
 
@@ -22,6 +27,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Modules\CryptoExchange.Modules.Users.Api\CryptoExchange.Modules.Users.Api.csproj" />
     <ProjectReference Include="..\..\Modules\CryptoExchange.Modules.Users.Core\CryptoExchange.Modules.Users.Core.csproj" />
+    <ProjectReference Include="..\..\Modules\CryptoExchange.Modules.Wallets.Api\CryptoExchange.Modules.Wallets.Api.csproj" />
     <ProjectReference Include="..\..\Modules\CryptoExchange.Modules.Wallets.Core\CryptoExchange.Modules.Wallets.Core.csproj" />
   </ItemGroup>
 

@@ -8,6 +8,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using CryptoExchange.Modules.Wallets.Api;
+using CryptoExchange.Shared.Infrastructure;
 
 namespace Boostrapper.CryptoExchange
 {
@@ -16,8 +17,11 @@ namespace Boostrapper.CryptoExchange
         public static void Main(string[] args)
         {
             var builder = WebApplication.CreateBuilder(args);
+            
+           
 
             builder.Services.AddWallets();
+            builder.Services.AddInfrastructure();
 
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

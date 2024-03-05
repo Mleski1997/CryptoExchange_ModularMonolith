@@ -984,6 +984,18 @@
           }
         }
       },
+      "Microsoft.EntityFrameworkCore.Tools/6.0.27": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "6.0.27"
+        },
+        "compile": {
+          "lib/net6.0/_._": {}
+        },
+        "runtime": {
+          "lib/net6.0/_._": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -2965,6 +2977,20 @@
           "bin/placeholder/CryptoExchange.Modules.Users.Core.dll": {}
         }
       },
+      "CryptoExchange.Modules.Wallets.Api/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "CryptoExchange.Modules.Wallets.Core": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CryptoExchange.Modules.Wallets.Api.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CryptoExchange.Modules.Wallets.Api.dll": {}
+        }
+      },
       "CryptoExchange.Modules.Wallets.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -3798,6 +3824,31 @@
         "lib/net6.0/Microsoft.EntityFrameworkCore.SqlServer.xml",
         "microsoft.entityframeworkcore.sqlserver.6.0.27.nupkg.sha512",
         "microsoft.entityframeworkcore.sqlserver.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Tools/6.0.27": {
+      "sha512": "13v5fUH7OAmg784yXD25IW4KXucpi16/8XqzSqQcr2nTgUwoAWKEEn+0uPXlsSPm4x1vYR6jwNPDvJu0r8djVQ==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.tools/6.0.27",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/_._",
+        "microsoft.entityframeworkcore.tools.6.0.27.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.nuspec",
+        "tools/EntityFrameworkCore.PS2.psd1",
+        "tools/EntityFrameworkCore.PS2.psm1",
+        "tools/EntityFrameworkCore.psd1",
+        "tools/EntityFrameworkCore.psm1",
+        "tools/about_EntityFrameworkCore.help.txt",
+        "tools/init.ps1",
+        "tools/net461/any/ef.exe",
+        "tools/net461/win-arm64/ef.exe",
+        "tools/net461/win-x86/ef.exe",
+        "tools/netcoreapp2.0/any/ef.dll",
+        "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
@@ -7750,6 +7801,11 @@
       "path": "../../Modules/CryptoExchange.Modules.Users.Core/CryptoExchange.Modules.Users.Core.csproj",
       "msbuildProject": "../../Modules/CryptoExchange.Modules.Users.Core/CryptoExchange.Modules.Users.Core.csproj"
     },
+    "CryptoExchange.Modules.Wallets.Api/1.0.0": {
+      "type": "project",
+      "path": "../../Modules/CryptoExchange.Modules.Wallets.Api/CryptoExchange.Modules.Wallets.Api.csproj",
+      "msbuildProject": "../../Modules/CryptoExchange.Modules.Wallets.Api/CryptoExchange.Modules.Wallets.Api.csproj"
+    },
     "CryptoExchange.Modules.Wallets.Core/1.0.0": {
       "type": "project",
       "path": "../../Modules/CryptoExchange.Modules.Wallets.Core/CryptoExchange.Modules.Wallets.Core.csproj",
@@ -7770,9 +7826,12 @@
     "net6.0": [
       "CryptoExchange.Modules.Users.Api >= 1.0.0",
       "CryptoExchange.Modules.Users.Core >= 1.0.0",
+      "CryptoExchange.Modules.Wallets.Api >= 1.0.0",
       "CryptoExchange.Modules.Wallets.Core >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 6.0.27",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.27",
+      "Microsoft.EntityFrameworkCore.Tools >= 6.0.27",
+      "Npgsql.EntityFrameworkCore.PostgreSQL >= 6.0.22",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -7818,6 +7877,9 @@
             "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\CryptoExchange.Modules.Users.Core.csproj": {
               "projectPath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\CryptoExchange.Modules.Users.Core.csproj"
             },
+            "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Api\\CryptoExchange.Modules.Wallets.Api.csproj": {
+              "projectPath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Api\\CryptoExchange.Modules.Wallets.Api.csproj"
+            },
             "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\CryptoExchange.Modules.Wallets.Core.csproj": {
               "projectPath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\CryptoExchange.Modules.Wallets.Core.csproj"
             }
@@ -7843,6 +7905,16 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[6.0.27, )"
+          },
+          "Microsoft.EntityFrameworkCore.Tools": {
+            "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[6.0.27, )"
+          },
+          "Npgsql.EntityFrameworkCore.PostgreSQL": {
+            "target": "Package",
+            "version": "[6.0.22, )"
           },
           "Swashbuckle.AspNetCore": {
             "target": "Package",

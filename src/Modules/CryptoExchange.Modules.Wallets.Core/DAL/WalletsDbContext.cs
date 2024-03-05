@@ -13,6 +13,10 @@ namespace CryptoExchange.Modules.Wallets.Core.DAL
     {
         public DbSet<Wallet> Wallets { get; set; }
 
+        public WalletsDbContext()
+        {
+            
+        }
         public WalletsDbContext(DbContextOptions<WalletsDbContext> options) : base(options)
         {
         

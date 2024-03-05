@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "q224X8oMet1jQc/8cBzQSmdVAwvnOMx+rl+04Wx2jg9nSmBBopd3wrPwxWmt1u6Pl/yuT/KuBeyDz/890eJo/A==",
+  "dgSpecHash": "noqW9opFnh5LfsliMatXiYJUdjDUFPrldgiVxxTv5LvjTFM1tXr/QNknmt372jFuHBGnV0rul13izNHAZbJz+g==",
   "success": true,
   "projectFilePath": "C:\\Users\\micha\\CryptoExchange\\src\\Bootstrapper\\Bootstrapper.CryptoExchange\\Bootstrapper.CryptoExchange.csproj",
   "expectedPackageFiles": [
@@ -55,6 +55,7 @@
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.entityframeworkcore.design\\6.0.27\\microsoft.entityframeworkcore.design.6.0.27.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\6.0.27\\microsoft.entityframeworkcore.relational.6.0.27.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.entityframeworkcore.sqlserver\\6.0.27\\microsoft.entityframeworkcore.sqlserver.6.0.27.nupkg.sha512",
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.entityframeworkcore.tools\\6.0.27\\microsoft.entityframeworkcore.tools.6.0.27.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\6.0.0\\microsoft.extensions.caching.abstractions.6.0.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.caching.memory\\6.0.1\\microsoft.extensions.caching.memory.6.0.1.nupkg.sha512",

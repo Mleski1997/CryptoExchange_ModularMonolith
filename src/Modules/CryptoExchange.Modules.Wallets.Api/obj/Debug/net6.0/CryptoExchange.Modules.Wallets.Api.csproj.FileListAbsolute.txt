@@ -10,3 +10,12 @@ C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\obj
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\obj\Debug\net6.0\refint\CryptoExchange.Modules.Wallets.Api.dll
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\obj\Debug\net6.0\CryptoExchange.Modules.Wallets.Api.pdb
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\obj\Debug\net6.0\ref\CryptoExchange.Modules.Wallets.Api.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\bin\Debug\net6.0\CryptoExchange.Modules.Users.Core.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\bin\Debug\net6.0\CryptoExchange.Modules.Wallets.Core.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\bin\Debug\net6.0\CryptoExchange.Shared.Abstractions.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\bin\Debug\net6.0\CryptoExchange.Shared.Infrastructure.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\bin\Debug\net6.0\CryptoExchange.Modules.Wallets.Core.pdb
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\bin\Debug\net6.0\CryptoExchange.Modules.Users.Core.pdb
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\bin\Debug\net6.0\CryptoExchange.Shared.Abstractions.pdb
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\bin\Debug\net6.0\CryptoExchange.Shared.Infrastructure.pdb
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\obj\Debug\net6.0\CryptoExchange.Modules.Wallets.Api.csproj.CopyComplete

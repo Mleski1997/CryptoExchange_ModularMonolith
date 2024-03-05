@@ -10,9 +10,12 @@
         "dependencies": {
           "CryptoExchange.Modules.Users.Api": "1.0.0",
           "CryptoExchange.Modules.Users.Core": "1.0.0",
+          "CryptoExchange.Modules.Wallets.Api": "1.0.0",
           "CryptoExchange.Modules.Wallets.Core": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.27",
           "Microsoft.EntityFrameworkCore.Design": "6.0.27",
+          "Microsoft.EntityFrameworkCore.Tools": "6.0.27",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "6.0.22",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -537,6 +540,11 @@
             "assemblyVersion": "6.0.27.0",
             "fileVersion": "6.0.2724.6609"
           }
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Tools/6.0.27": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Design": "6.0.27"
         }
       },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
@@ -1521,6 +1529,15 @@
           "CryptoExchange.Modules.Users.Core.dll": {}
         }
       },
+      "CryptoExchange.Modules.Wallets.Api/1.0.0": {
+        "dependencies": {
+          "CryptoExchange.Modules.Wallets.Core": "1.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "CryptoExchange.Modules.Wallets.Api.dll": {}
+        }
+      },
       "CryptoExchange.Modules.Wallets.Core/1.0.0": {
         "dependencies": {
           "CryptoExchange.Modules.Users.Core": "1.0.0",
@@ -1918,6 +1935,13 @@
       "sha512": "sha512-Yc66OLFHx7fY5vI1/q9F3FZNt+hdcUO1dhRQev9dffeFVn2v/AA2vGhh1NUpDHASA7iCS2DRkwCr/Y7LwI3fNQ==",
       "path": "microsoft.entityframeworkcore.sqlserver/6.0.27",
       "hashPath": "microsoft.entityframeworkcore.sqlserver.6.0.27.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Tools/6.0.27": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-13v5fUH7OAmg784yXD25IW4KXucpi16/8XqzSqQcr2nTgUwoAWKEEn+0uPXlsSPm4x1vYR6jwNPDvJu0r8djVQ==",
+      "path": "microsoft.entityframeworkcore.tools/6.0.27",
+      "hashPath": "microsoft.entityframeworkcore.tools.6.0.27.nupkg.sha512"
     },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
@@ -2744,6 +2768,11 @@
       "sha512": ""
     },
     "CryptoExchange.Modules.Users.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CryptoExchange.Modules.Wallets.Api/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""
