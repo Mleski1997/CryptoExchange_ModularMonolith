@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoExchange.Modules.Wallets.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e449bb94f0acdace677380c94e262720d3b42329")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b632b3d5c8beb3cb55e4cea8e0517796df950b8e")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoExchange.Modules.Wallets.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoExchange.Modules.Wallets.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\micha\\CryptoExchange\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5F10CDFF-1A15-4271-A2F9-F658D2805D26}|src\\Modules\\CryptoExchange.Modules.Wallet.Api\\CryptoExchange.Modules.Wallet.Api.csproj|c:\\users\\micha\\cryptoexchange\\src\\modules\\cryptoexchange.modules.wallet.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F10CDFF-1A15-4271-A2F9-F658D2805D26}|src\\Modules\\CryptoExchange.Modules.Wallet.Api\\CryptoExchange.Modules.Wallet.Api.csproj|solutionrelative:src\\modules\\cryptoexchange.modules.wallet.api\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{CD2FCE78-1763-436F-974B-2563C73AFA68}|src\\Modules\\CryptoExchange.Modules.Wallets.Core\\CryptoExchange.Modules.Wallets.Core.csproj|c:\\users\\micha\\cryptoexchange\\src\\modules\\cryptoexchange.modules.wallets.core\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CD2FCE78-1763-436F-974B-2563C73AFA68}|src\\Modules\\CryptoExchange.Modules.Wallets.Core\\CryptoExchange.Modules.Wallets.Core.csproj|solutionrelative:src\\modules\\cryptoexchange.modules.wallets.core\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -214,19 +218,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 1214,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallet.Api\\Class1.cs",
+              "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Wallet.Api\\Class1.cs",
+              "ToolTip": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallet.Api\\Class1.cs",
+              "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Wallet.Api\\Class1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-06T16:17:12.843Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Extension.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Extension.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Extension.cs",
@@ -234,12 +247,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Extension.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T11:05:17.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T11:05:17.923Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Extensions.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Infrastructure\\Extensions.cs",
               "RelativeDocumentMoniker": "src\\Shared\\CryptoExchange.Shared.Infrastructure\\Extensions.cs",
@@ -247,12 +259,11 @@
               "RelativeToolTip": "src\\Shared\\CryptoExchange.Shared.Infrastructure\\Extensions.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAuwCEAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T08:48:14.917Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T08:48:14.917Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppInitializer.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Infrastructure\\Servies\\AppInitializer.cs",
               "RelativeDocumentMoniker": "src\\Shared\\CryptoExchange.Shared.Infrastructure\\Servies\\AppInitializer.cs",
@@ -260,12 +271,11 @@
               "RelativeToolTip": "src\\Shared\\CryptoExchange.Shared.Infrastructure\\Servies\\AppInitializer.cs",
               "ViewState": "AQIAABUAAAAAAAAAAAAUwB4AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T09:19:17.502Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T09:19:17.502Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Extensions.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Infrastructure\\Postgres\\Extensions.cs",
               "RelativeDocumentMoniker": "src\\Shared\\CryptoExchange.Shared.Infrastructure\\Postgres\\Extensions.cs",
@@ -273,12 +283,11 @@
               "RelativeToolTip": "src\\Shared\\CryptoExchange.Shared.Infrastructure\\Postgres\\Extensions.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T10:36:20.461Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T10:36:20.461Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "WalletsDbContext.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\DAL\\WalletsDbContext.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Wallets.Core\\DAL\\WalletsDbContext.cs",
@@ -286,25 +295,24 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Wallets.Core\\DAL\\WalletsDbContext.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAAUwA8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T08:01:52.571Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T08:01:52.571Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Extensions.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Extensions.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Extensions.cs",
               "ToolTip": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Extensions.cs",
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Extensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-04T08:07:56.623Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "UserDbContext.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\DAL\\UserDbContext.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\DAL\\UserDbContext.cs",
@@ -312,12 +320,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\DAL\\UserDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:05:19.97Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:05:19.97Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "PostgresOptions.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Infrastructure\\Postgres\\PostgresOptions.cs",
               "RelativeDocumentMoniker": "src\\Shared\\CryptoExchange.Shared.Infrastructure\\Postgres\\PostgresOptions.cs",
@@ -325,12 +332,11 @@
               "RelativeToolTip": "src\\Shared\\CryptoExchange.Shared.Infrastructure\\Postgres\\PostgresOptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T10:37:32.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T10:37:32.142Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "UtcClock.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Infrastructure\\UtcClock.cs",
               "RelativeDocumentMoniker": "src\\Shared\\CryptoExchange.Shared.Infrastructure\\UtcClock.cs",
@@ -338,12 +344,11 @@
               "RelativeToolTip": "src\\Shared\\CryptoExchange.Shared.Infrastructure\\UtcClock.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:44:45.01Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T11:44:45.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Bootstrapper\\Bootstrapper.CryptoExchange\\appsettings.json",
               "RelativeDocumentMoniker": "src\\Bootstrapper\\Bootstrapper.CryptoExchange\\appsettings.json",
@@ -351,12 +356,11 @@
               "RelativeToolTip": "src\\Bootstrapper\\Bootstrapper.CryptoExchange\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-04T12:31:01.367Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T12:31:01.367Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Bootstrapper\\Bootstrapper.CryptoExchange\\Program.cs",
               "RelativeDocumentMoniker": "src\\Bootstrapper\\Bootstrapper.CryptoExchange\\Program.cs",
@@ -364,12 +368,11 @@
               "RelativeToolTip": "src\\Bootstrapper\\Bootstrapper.CryptoExchange\\Program.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAUwBgAAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T12:30:10.451Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T12:30:10.451Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "CryptoExchange.Modules.Users.Core.csproj",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\CryptoExchange.Modules.Users.Core.csproj",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\CryptoExchange.Modules.Users.Core.csproj",
@@ -377,12 +380,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\CryptoExchange.Modules.Users.Core.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-05T10:41:15.045Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:41:15.045Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "CryptoExchange.Modules.Wallets.Api.csproj",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Api\\CryptoExchange.Modules.Wallets.Api.csproj",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Wallets.Api\\CryptoExchange.Modules.Wallets.Api.csproj",
@@ -390,12 +392,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Wallets.Api\\CryptoExchange.Modules.Wallets.Api.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-04T08:48:14.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T08:48:14.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "TokenService.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\TokenService.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\TokenService.cs",
@@ -403,12 +404,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\TokenService.cs",
               "ViewState": "AQIAABwAAAAAAAAAAAAkwDEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:52:38.732Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:52:38.732Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Extensions.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Api\\Extensions.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Wallets.Api\\Extensions.cs",
@@ -416,12 +416,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Wallets.Api\\Extensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T12:53:28.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T12:53:28.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "20240305130019_init.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Migrations\\20240305130019_init.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Migrations\\20240305130019_init.cs",
@@ -429,12 +428,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Migrations\\20240305130019_init.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T13:00:19.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T13:00:19.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "UserService.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\UserService.cs",
@@ -442,12 +440,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\UserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFIAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:52:58.372Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:52:58.372Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\IUserService.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\IUserService.cs",
@@ -455,12 +452,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\IUserService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:52:50.535Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:52:50.535Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "ITokenService.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\ITokenService.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\ITokenService.cs",
@@ -468,12 +464,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\ITokenService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:52:31.028Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:52:31.028Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "IIdentityService.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\IIdentityService.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\IIdentityService.cs",
@@ -481,12 +476,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\IIdentityService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:52:16.893Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:52:16.893Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "IdentityService.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\IdentityService.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\IdentityService.cs",
@@ -494,12 +488,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Services\\IdentityService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:52:23.494Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:52:23.494Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Repository\\UserRepository.cs",
@@ -507,12 +500,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Repository\\UserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAkwB4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:51:36.582Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:51:36.582Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Repository\\IUserRepository.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Repository\\IUserRepository.cs",
@@ -520,12 +512,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Repository\\IUserRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:51:22.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:51:22.507Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "AccountController.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Api\\AccountController.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Api\\AccountController.cs",
@@ -533,12 +524,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Api\\AccountController.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T11:30:21.241Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T11:30:21.241Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "UserController.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Api\\UserController.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Api\\UserController.cs",
@@ -546,12 +536,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Api\\UserController.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAADgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T11:30:59.812Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T11:30:59.812Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "User.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Entities\\User.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Entities\\User.cs",
@@ -559,12 +548,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Entities\\User.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAyAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:04:01.546Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:04:01.546Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "Extensions.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Api\\Extensions.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Api\\Extensions.cs",
@@ -572,12 +560,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Api\\Extensions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T11:31:25.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T11:31:25.117Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Bootstrapper.CryptoExchange.csproj",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Bootstrapper\\Bootstrapper.CryptoExchange\\Bootstrapper.CryptoExchange.csproj",
               "RelativeDocumentMoniker": "src\\Bootstrapper\\Bootstrapper.CryptoExchange\\Bootstrapper.CryptoExchange.csproj",
@@ -585,12 +572,11 @@
               "RelativeToolTip": "src\\Bootstrapper\\Bootstrapper.CryptoExchange\\Bootstrapper.CryptoExchange.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-05T09:14:43.553Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T09:14:43.553Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "CryptoExchange.Modules.Tokens.Core.csproj",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Tokens.Core\\CryptoExchange.Modules.Tokens.Core.csproj",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Tokens.Core\\CryptoExchange.Modules.Tokens.Core.csproj",
@@ -598,12 +584,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Tokens.Core\\CryptoExchange.Modules.Tokens.Core.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-04T08:00:35.487Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T08:00:35.487Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "CryptoExchange.Modules.Wallets.Core.csproj",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\CryptoExchange.Modules.Wallets.Core.csproj",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Wallets.Core\\CryptoExchange.Modules.Wallets.Core.csproj",
@@ -611,12 +596,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Wallets.Core\\CryptoExchange.Modules.Wallets.Core.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-04T08:00:34.182Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T08:00:34.182Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "CryptoExchange.Shared.Abstractions.csproj",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Abstractions\\CryptoExchange.Shared.Abstractions.csproj",
               "RelativeDocumentMoniker": "src\\Shared\\CryptoExchange.Shared.Abstractions\\CryptoExchange.Shared.Abstractions.csproj",
@@ -624,12 +608,11 @@
               "RelativeToolTip": "src\\Shared\\CryptoExchange.Shared.Abstractions\\CryptoExchange.Shared.Abstractions.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-05T10:41:46.666Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:41:46.666Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "CryptoExchange.Shared.Infrastructure.csproj",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Infrastructure\\CryptoExchange.Shared.Infrastructure.csproj",
               "RelativeDocumentMoniker": "src\\Shared\\CryptoExchange.Shared.Infrastructure\\CryptoExchange.Shared.Infrastructure.csproj",
@@ -637,12 +620,11 @@
               "RelativeToolTip": "src\\Shared\\CryptoExchange.Shared.Infrastructure\\CryptoExchange.Shared.Infrastructure.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-03-05T10:00:57.252Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:00:57.252Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "Wallet.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Entities\\Wallet.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Entities\\Wallet.cs",
@@ -650,12 +632,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Entities\\Wallet.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-03T16:36:23.886Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-03T16:36:23.886Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "UserDoesntExistsExceptions.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\UserDoesntExistsExceptions.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\UserDoesntExistsExceptions.cs",
@@ -663,12 +644,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\UserDoesntExistsExceptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:49:39.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:49:39.753Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "EmailAlreadyExistsExcpetion.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\EmailAlreadyExistsExcpetion.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\EmailAlreadyExistsExcpetion.cs",
@@ -676,12 +656,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\EmailAlreadyExistsExcpetion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:49:30.002Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:49:30.002Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "UserIdDoesntExistsExceptions.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\UserIdDoesntExistsExceptions.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\UserIdDoesntExistsExceptions.cs",
@@ -689,12 +668,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\UserIdDoesntExistsExceptions.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:49:50.046Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:49:50.046Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "UserIsNotActiveExcepetion.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\UserIsNotActiveExcepetion.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\UserIsNotActiveExcepetion.cs",
@@ -702,12 +680,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\UserIsNotActiveExcepetion.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:49:57.841Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:49:57.841Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "UserNameAlreadyExistsException.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\UserNameAlreadyExistsException.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\UserNameAlreadyExistsException.cs",
@@ -715,12 +692,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\UserNameAlreadyExistsException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:50:04.354Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:50:04.354Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "WrongPasswordException.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\WrongPasswordException.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\WrongPasswordException.cs",
@@ -728,12 +704,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\Exceptions\\WrongPasswordException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:50:12.261Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:50:12.261Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "UserDto.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\UserDto.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\UserDto.cs",
@@ -741,12 +716,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\UserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:48:52.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:48:52.863Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "UpdateUserDto.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\UpdateUserDto.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\UpdateUserDto.cs",
@@ -754,12 +728,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\UpdateUserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:48:38.594Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:48:38.594Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "SignUpDto.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\SignUpDto.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\SignUpDto.cs",
@@ -767,12 +740,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\SignUpDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:48:13.898Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:48:13.898Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "SignInDto.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\SignInDto.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\SignInDto.cs",
@@ -780,12 +752,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\SignInDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:47:55.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:47:55.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "NewUserDto.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\NewUserDto.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\NewUserDto.cs",
@@ -793,12 +764,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Users.Core\\DTO\\NewUserDto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-05T10:47:36.022Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-05T10:47:36.022Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "launchSettings.json",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Bootstrapper\\Bootstrapper.CryptoExchange\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "src\\Bootstrapper\\Bootstrapper.CryptoExchange\\Properties\\launchSettings.json",
@@ -806,12 +776,11 @@
               "RelativeToolTip": "src\\Bootstrapper\\Bootstrapper.CryptoExchange\\Properties\\launchSettings.json",
               "ViewState": "AQIAAA0AAAAAAAAAAAAowCAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-03-04T12:31:20.982Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T12:31:20.982Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "WalletRepository.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Repositories\\WalletRepository.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Repositories\\WalletRepository.cs",
@@ -819,12 +788,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Repositories\\WalletRepository.cs",
               "ViewState": "AQIAAAsAAAAAAAAAAAAxwB4AAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:19:59.463Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T11:19:59.463Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "IWalletRepository.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Repositories\\IWalletRepository.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Repositories\\IWalletRepository.cs",
@@ -832,12 +800,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Wallets.Core\\Repositories\\IWalletRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:17:27.33Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T11:17:27.33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "IClock.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Abstractions\\IClock.cs",
               "RelativeDocumentMoniker": "src\\Shared\\CryptoExchange.Shared.Abstractions\\IClock.cs",
@@ -845,12 +812,11 @@
               "RelativeToolTip": "src\\Shared\\CryptoExchange.Shared.Abstractions\\IClock.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T11:45:21.726Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T11:45:21.726Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "Token.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Tokens.Core\\Entities\\Token.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Tokens.Core\\Entities\\Token.cs",
@@ -858,12 +824,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Tokens.Core\\Entities\\Token.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T08:00:35.572Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T08:00:35.572Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "Wallet.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Tokens.Core\\Entities\\Wallet.cs",
               "RelativeDocumentMoniker": "src\\Modules\\CryptoExchange.Modules.Tokens.Core\\Entities\\Wallet.cs",
@@ -871,12 +836,11 @@
               "RelativeToolTip": "src\\Modules\\CryptoExchange.Modules.Tokens.Core\\Entities\\Wallet.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T08:00:35.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T08:00:35.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "CryptoExchangeException.cs",
               "DocumentMoniker": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Abstractions\\Exceptions\\CryptoExchangeException.cs",
               "RelativeDocumentMoniker": "src\\Shared\\CryptoExchange.Shared.Abstractions\\Exceptions\\CryptoExchangeException.cs",
@@ -884,8 +848,11 @@
               "RelativeToolTip": "src\\Shared\\CryptoExchange.Shared.Abstractions\\Exceptions\\CryptoExchangeException.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-04T08:48:14.921Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-04T08:48:14.921Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

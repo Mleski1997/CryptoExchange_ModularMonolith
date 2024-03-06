@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bootstrapper.CryptoExchange
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Users.Core", "src\Modules\CryptoExchange.Modules.Users.Core\CryptoExchange.Modules.Users.Core.csproj", "{0C0C5B32-214C-45C1-90A7-86846DE0698F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Users.Api", "src\Modules\CryptoExchange.Modules.Users.Api\CryptoExchange.Modules.Users.Api.csproj", "{C701E30E-7D9C-41F8-8731-F18333431D5A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Users.Api", "src\Modules\CryptoExchange.Modules.Users.Api\CryptoExchange.Modules.Users.Api.csproj", "{C701E30E-7D9C-41F8-8731-F18333431D5A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Wallet.Api", "src\Modules\CryptoExchange.Modules.Wallet.Api\CryptoExchange.Modules.Wallet.Api.csproj", "{5F10CDFF-1A15-4271-A2F9-F658D2805D26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +75,10 @@ Global
 		{C701E30E-7D9C-41F8-8731-F18333431D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C701E30E-7D9C-41F8-8731-F18333431D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C701E30E-7D9C-41F8-8731-F18333431D5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F10CDFF-1A15-4271-A2F9-F658D2805D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F10CDFF-1A15-4271-A2F9-F658D2805D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F10CDFF-1A15-4271-A2F9-F658D2805D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F10CDFF-1A15-4271-A2F9-F658D2805D26}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -92,6 +98,7 @@ Global
 		{AFD097A7-6114-42D7-B2E5-3735E9EA0E02} = {570CCA35-7F6D-4552-8EFF-47EA458340CF}
 		{0C0C5B32-214C-45C1-90A7-86846DE0698F} = {1CB2F2BD-4D7D-4FD2-8D21-12BFFE7246EC}
 		{C701E30E-7D9C-41F8-8731-F18333431D5A} = {1CB2F2BD-4D7D-4FD2-8D21-12BFFE7246EC}
+		{5F10CDFF-1A15-4271-A2F9-F658D2805D26} = {64094F49-9378-40AB-9F99-238656E8385B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C672D8FB-5088-4D33-BB7A-2E62BDAAE7CF}
