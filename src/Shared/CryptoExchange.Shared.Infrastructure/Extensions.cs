@@ -14,17 +14,16 @@ namespace CryptoExchange.Shared.Infrastructure
         public static IServiceCollection AddInfrastructure(this IServiceCollection services)
         {
             services.AddHostedService<AppInitializer>();
-          
-
+            services.AddControllers();
+            services.AddEndpointsApiExplorer();
+            services.AddSwaggerGen();
 
             return services;
 
         }
 
         public static IApplicationBuilder UseInfrastructure(this IApplicationBuilder app)
-        {
-                
-            
+        { 
 
             return app;
         }

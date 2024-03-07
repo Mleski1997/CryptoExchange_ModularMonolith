@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "CKoScN5jAjNodhWFF0oJuDxZbXrL9MyIny8HMWRSZkFnYwbUbsC/iaibwzxgyEBDS+TiPztb1TXmoVio2rladg==",
+  "dgSpecHash": "ic5FWD5vuWz9tAff+ocgOG6xds5u90ZVuPERhF5nflaRjFxhxP8NbfASyPf8kTTE+zIqCf86bTihgwLr7xIeBw==",
   "success": true,
   "projectFilePath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\CryptoExchange.Modules.Wallets.Core.csproj",
   "expectedPackageFiles": [

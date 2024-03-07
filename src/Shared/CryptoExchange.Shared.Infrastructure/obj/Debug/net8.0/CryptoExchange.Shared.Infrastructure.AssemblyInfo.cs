@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoExchange.Shared.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b632b3d5c8beb3cb55e4cea8e0517796df950b8e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d2fd46604738c625b986d2b24a109bad963a2b06")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoExchange.Shared.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoExchange.Shared.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

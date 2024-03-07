@@ -4,7 +4,7 @@ using CryptoExchange.Modules.Users.Core.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 
-namespace CryptoExchange.Modules.Users.Api
+namespace CryptoExchange.Modules.Users.Api.Controllers
 {
     [Route("api/acccount")]
     [ApiController]

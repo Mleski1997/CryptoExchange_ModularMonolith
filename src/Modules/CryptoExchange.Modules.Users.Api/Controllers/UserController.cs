@@ -8,7 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CryptoExchange.Modules.Users.Api
+namespace CryptoExchange.Modules.Users.Api.Controllers
 {
     [Route("api/User")]
     [ApiController]
