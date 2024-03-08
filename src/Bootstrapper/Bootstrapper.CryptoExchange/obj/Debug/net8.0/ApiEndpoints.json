@@ -1,6 +1,6 @@
 [
   {
-    "ContainingType": "CryptoExchange.Modules.Users.Api.AccountController",
+    "ContainingType": "CryptoExchange.Modules.Users.Api.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/acccount/Login",
     "HttpMethod": "POST",
@@ -16,7 +16,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CryptoExchange.Modules.Users.Api.AccountController",
+    "ContainingType": "CryptoExchange.Modules.Users.Api.Controllers.AccountController",
     "Method": "Register",
     "RelativePath": "api/acccount/Register",
     "HttpMethod": "POST",
@@ -32,7 +32,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CryptoExchange.Modules.Users.Api.UserController",
+    "ContainingType": "CryptoExchange.Modules.Users.Api.Controllers.UserController",
     "Method": "GetAllUsers",
     "RelativePath": "api/User",
     "HttpMethod": "GET",
@@ -52,7 +52,7 @@
     ]
   },
   {
-    "ContainingType": "CryptoExchange.Modules.Users.Api.UserController",
+    "ContainingType": "CryptoExchange.Modules.Users.Api.Controllers.UserController",
     "Method": "GetUserById",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "GET",
@@ -78,7 +78,7 @@
     ]
   },
   {
-    "ContainingType": "CryptoExchange.Modules.Users.Api.UserController",
+    "ContainingType": "CryptoExchange.Modules.Users.Api.Controllers.UserController",
     "Method": "DeleteUser",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "DELETE",
@@ -94,7 +94,7 @@
     "ReturnTypes": []
   },
   {
-    "ContainingType": "CryptoExchange.Modules.Users.Api.UserController",
+    "ContainingType": "CryptoExchange.Modules.Users.Api.Controllers.UserController",
     "Method": "UpdateUser",
     "RelativePath": "api/User/{id}",
     "HttpMethod": "PUT",
@@ -113,5 +113,25 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoExchange.Modules.Users.Api.Controllers.HomeController",
+    "Method": "Get",
+    "RelativePath": "users-module/Home",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.String",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
   }
 ]

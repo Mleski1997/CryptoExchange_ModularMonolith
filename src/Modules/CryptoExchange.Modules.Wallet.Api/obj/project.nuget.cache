@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MqRo6Bh+/DC/ER3IRlfUqnziLYMFIbMPTOnlRjE86HyJu/wQ/EZvbqdHIBTkrWOgzFke71wOPQEWIb/WAkmr8w==",
+  "dgSpecHash": "8/V3/sHFOwfES1TSBolr8OecUDaQlE+al2MxfObE9QK/Q00MLKuSW2jpJVULLgSefoOrwdouxdDOkfzOVy9AnA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallet.Api\\CryptoExchange.Modules.Wallet.Api.csproj",
+  "projectFilePath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallet.Api\\CryptoExchange.Modules.Tokens.Api.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

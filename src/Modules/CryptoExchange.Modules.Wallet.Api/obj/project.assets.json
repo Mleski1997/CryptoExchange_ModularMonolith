@@ -15,9 +15,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallet.Api\\CryptoExchange.Modules.Wallet.Api.csproj",
-      "projectName": "CryptoExchange.Modules.Wallet.Api",
-      "projectPath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallet.Api\\CryptoExchange.Modules.Wallet.Api.csproj",
+      "projectUniqueName": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallet.Api\\CryptoExchange.Modules.Tokens.Api.csproj",
+      "projectName": "CryptoExchange.Modules.Tokens.Api",
+      "projectPath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallet.Api\\CryptoExchange.Modules.Tokens.Api.csproj",
       "packagesPath": "C:\\Users\\micha\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallet.Api\\obj\\",
       "projectStyle": "PackageReference",

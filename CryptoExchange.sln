@@ -35,7 +35,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.User
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Users.Api", "src\Modules\CryptoExchange.Modules.Users.Api\CryptoExchange.Modules.Users.Api.csproj", "{C701E30E-7D9C-41F8-8731-F18333431D5A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Wallet.Api", "src\Modules\CryptoExchange.Modules.Wallet.Api\CryptoExchange.Modules.Wallet.Api.csproj", "{5F10CDFF-1A15-4271-A2F9-F658D2805D26}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Tokens.Api", "src\Modules\CryptoExchange.Modules.Wallet.Api\CryptoExchange.Modules.Tokens.Api.csproj", "{5F10CDFF-1A15-4271-A2F9-F658D2805D26}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
