@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoExchange.Shared.Abstractions")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1de710c5ab9e0636306ff84ce2a6bc213abac6ed")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb83a5d4511d6b32a14da43dd963dd654e484a84")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoExchange.Shared.Abstractions")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoExchange.Shared.Abstractions")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -25,6 +25,8 @@ namespace Boostrapper.CryptoExchange
                 module.Register(builder.Services, builder.Configuration);
             }
 
+            
+
     
             builder.Services.AddInfrastructure();
 
@@ -42,8 +44,13 @@ namespace Boostrapper.CryptoExchange
                 module.Use(app);
             }
 
-  
-      
+            
+            
+            var logger = app.Services.GetRequiredService<ILogger<Program>>();
+            logger.LogInformation($"Modules: {string.Join(", ", modules.Select(x => x.Name))}");
+
+
+
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();

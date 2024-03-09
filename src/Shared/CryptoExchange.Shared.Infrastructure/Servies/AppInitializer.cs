@@ -23,7 +23,7 @@ namespace CryptoExchange.Shared.Infrastructure.Servies
             _logger = logger;
         }
 
-        public ILogger<AppInitializer> Logger { get; }
+        public ILogger<AppInitializer> logger { get; }
 
         public async Task StartAsync(CancellationToken cancellationToken)
         {
@@ -42,6 +42,8 @@ namespace CryptoExchange.Shared.Infrastructure.Servies
                     await dbContext.Database.MigrateAsync(cancellationToken);
                 }
             }
+
+            
         }
         public Task StopAsync(CancellationToken cancellationToken) => Task.CompletedTask;
        
