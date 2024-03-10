@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bootstrapper.CryptoExchange")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bb83a5d4511d6b32a14da43dd963dd654e484a84")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f372b4e919eaaee7e5a026e619f92aba5f0aed90")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bootstrapper.CryptoExchange")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bootstrapper.CryptoExchange")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
