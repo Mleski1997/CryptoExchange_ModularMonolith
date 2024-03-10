@@ -115,6 +115,105 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CryptoExchange.Modules.Wallets.Api.Controllers.WalletsControllers",
+    "Method": "GetAllAsyncs",
+    "RelativePath": "api/Wallet",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "CryptoExchange.Modules.Wallets.Core.Entities.Wallet",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CryptoExchange.Modules.Wallets.Api.Controllers.WalletsControllers",
+    "Method": "AddAsync",
+    "RelativePath": "api/Wallet",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "CryptoExchange.Modules.Wallets.Core.DTO.WalletDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoExchange.Modules.Wallets.Api.Controllers.WalletsControllers",
+    "Method": "DeleteAsync",
+    "RelativePath": "api/Wallet",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CryptoExchange.Modules.Wallets.Api.Controllers.WalletsControllers",
+    "Method": "GetAsyncs",
+    "RelativePath": "api/Wallet/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CryptoExchange.Modules.Wallets.Core.Entities.Wallet",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "CryptoExchange.Modules.Wallets.Api.Controllers.WalletsControllers",
+    "Method": "UpdateAsync",
+    "RelativePath": "api/Wallet/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Guid",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "CryptoExchange.Modules.Wallets.Core.DTO.WalletUpdateDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CryptoExchange.Modules.Users.Api.Controllers.HomeController",
     "Method": "Get",
     "RelativePath": "users-module/Home",

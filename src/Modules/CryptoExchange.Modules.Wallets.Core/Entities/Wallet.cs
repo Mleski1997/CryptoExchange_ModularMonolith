@@ -9,7 +9,7 @@ namespace CryptoExchange.Modules.Wallets.Core.Entities
     public class Wallet
     {
         public Guid Id { get; set; }
-        public string WalletAddress { get; set; }
+        public string WalletAddress { get; private set; }
         public string WalletName { get; set; } 
         public DateTime CreatedAt { get; set; }
         public decimal TotalSaldo { get; set; }
@@ -22,7 +22,7 @@ namespace CryptoExchange.Modules.Wallets.Core.Entities
             TotalSaldo = 0;
         }
 
-        private string GenerateWalletAddress(int lenght = 8)
+        private static string GenerateWalletAddress(int lenght = 8)
         {
            using (var randomNumberGenerator = RandomNumberGenerator.Create()) {
                 var randomNumer = new byte[lenght];

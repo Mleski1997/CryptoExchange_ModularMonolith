@@ -6,6 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Configuration;
+using CryptoExchange.Modules.Wallets.Core.Services;
 
 namespace CryptoExchange.Modules.Wallets.Api
 {
@@ -13,7 +14,7 @@ namespace CryptoExchange.Modules.Wallets.Api
     {
         public static IServiceCollection AddWallets(this IServiceCollection services, IConfiguration configuration)
         {
-            services.AddCore(configuration);
+            services.AddScoped<IWalletService,WalletService>();
             return services;
         }
     }

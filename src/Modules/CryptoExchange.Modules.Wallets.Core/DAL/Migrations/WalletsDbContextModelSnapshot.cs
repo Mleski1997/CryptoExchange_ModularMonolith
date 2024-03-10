@@ -18,7 +18,7 @@ namespace CryptoExchange.Modules.Wallets.Core.DAL.Migrations
 #pragma warning disable 612, 618
             modelBuilder
                 .HasDefaultSchema("wallet")
-                .HasAnnotation("ProductVersion", "6.0.27")
+                .HasAnnotation("ProductVersion", "8.0.2")
                 .HasAnnotation("Relational:MaxIdentifierLength", 63);
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
@@ -32,10 +32,11 @@ namespace CryptoExchange.Modules.Wallets.Core.DAL.Migrations
                     b.Property<DateTime>("CreatedAt")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<double>("TotalSaldo")
-                        .HasColumnType("double precision");
+                    b.Property<decimal>("TotalSaldo")
+                        .HasColumnType("numeric");
 
-                    b.Property<string>("WalletAdress")
+                    b.Property<string>("WalletAddress")
+                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("WalletName")

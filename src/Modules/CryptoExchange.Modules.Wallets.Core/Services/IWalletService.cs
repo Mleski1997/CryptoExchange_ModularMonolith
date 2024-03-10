@@ -8,14 +8,14 @@ using System.Threading.Tasks;
 
 namespace CryptoExchange.Modules.Wallets.Core.Services
 {
-    public interface IServiceWallet
+    public interface IWalletService
     {
         Task<Wallet> GetWalletAsync(Guid id);
         Task<IReadOnlyCollection<Wallet>> GetWalletsAsync();
-        Task AddAsync(Wallet wallet);
+        Task AddAsync(WalletDto dto);
         Task UpdateAsync(WalletUpdateDto dto);
         Task DeleteAsync(Guid id);
-         
+
 
     }
 }

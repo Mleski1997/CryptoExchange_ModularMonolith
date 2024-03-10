@@ -20,26 +20,26 @@ namespace CryptoExchange.Modules.Wallets.Core.Repositories
             _wallets = _dbContext.Wallets;
         }
 
-        public Task<Wallet> GetAsync(Guid id) => _wallets.SingleOrDefaultAsync(x => x.Id == id);
+        public async Task<Wallet> GetAsync(Guid id) => await _wallets.SingleOrDefaultAsync(x => x.Id == id);
        
 
         public async Task<IReadOnlyList<Wallet>> GetAllAsync() => await _wallets.ToListAsync();
        
         public async Task AddAsync(Wallet wallet)
         {
-            await _dbContext.AddAsync(wallet);
+            await _wallets.AddAsync(wallet);
             await _dbContext.SaveChangesAsync(); 
         }
 
         public async Task DeleteAsync(Wallet wallet)
         {
-            _dbContext.Remove(wallet);
+            _wallets.Remove(wallet);
             await _dbContext.SaveChangesAsync();
         }
 
         public async Task UpdateAsync(Wallet wallet)
         {
-            _dbContext.Update(wallet);
+            _wallets.Update(wallet);
             await _dbContext.SaveChangesAsync();
         }
     }
