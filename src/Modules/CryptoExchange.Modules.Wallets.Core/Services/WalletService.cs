@@ -1,6 +1,7 @@
 ﻿using CryptoExchange.Modules.Wallets.Core.DTO;
 using CryptoExchange.Modules.Wallets.Core.Entities;
 using CryptoExchange.Modules.Wallets.Core.Exceptions;
+using CryptoExchange.Modules.Wallets.Core.Policies;
 using CryptoExchange.Modules.Wallets.Core.Repositories;
 using System;
 using System.Collections.Generic;
@@ -13,10 +14,12 @@ namespace CryptoExchange.Modules.Wallets.Core.Services
     public class WalletService : IWalletService
     {
         private readonly IWalletRepository _walletRepository;
+        private readonly IWalletDeletionPolicy _walletDeletionPolicy;
 
-        public WalletService(IWalletRepository walletRepository)
+        public WalletService(IWalletRepository walletRepository, IWalletDeletionPolicy walletDeletionPolicy)
         {
             _walletRepository = walletRepository;
+            _walletDeletionPolicy = walletDeletionPolicy;
         }
 
         public async Task<Wallet> GetWalletAsync(Guid id) =>  await _walletRepository.GetAsync(id);
@@ -46,6 +49,12 @@ namespace CryptoExchange.Modules.Wallets.Core.Services
             {
                 throw new WalletNotFoundException(id);
             }
+            if(await _walletDeletionPolicy.CanDeletionWallet(wallet) is false)
+            {
+                throw new CannotDeleteWalletException(wallet.TotalSaldo);
+            }
+
+            
             await _walletRepository.DeleteAsync(wallet);
 
         }
