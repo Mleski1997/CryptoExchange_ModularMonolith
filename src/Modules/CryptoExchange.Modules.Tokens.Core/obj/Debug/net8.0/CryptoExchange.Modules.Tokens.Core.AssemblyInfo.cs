@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CryptoExchange.Modules.Tokens.Core")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6b12190636fb41ba70595059a244352489cc796b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e0f458ff0ca3212b187573e437f49c3a4eec763")]
 [assembly: System.Reflection.AssemblyProductAttribute("CryptoExchange.Modules.Tokens.Core")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CryptoExchange.Modules.Tokens.Core")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

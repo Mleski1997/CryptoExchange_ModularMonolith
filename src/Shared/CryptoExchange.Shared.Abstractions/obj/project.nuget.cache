@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "7GPF1HaBkncr5BFCpmj6zDn/NJAkafYdnd9LDWcEKp4e7RUYcVpI42PROK701dzf4TSjrpYyr2XJ6rHZKQJ+Xw==",
+  "dgSpecHash": "ziKXs6zdHR3AJIoUgavLqs4YJ7KgAuhfAKR7/GnYXcPAn6vEIsB07szMW8wWj7Yn4gMsfn1JHLtgKbyo5F1Fnw==",
   "success": true,
   "projectFilePath": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Abstractions\\CryptoExchange.Shared.Abstractions.csproj",
   "expectedPackageFiles": [

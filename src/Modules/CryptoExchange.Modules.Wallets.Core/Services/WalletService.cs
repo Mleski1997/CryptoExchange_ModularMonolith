@@ -3,11 +3,6 @@ using CryptoExchange.Modules.Wallets.Core.Entities;
 using CryptoExchange.Modules.Wallets.Core.Exceptions;
 using CryptoExchange.Modules.Wallets.Core.Policies;
 using CryptoExchange.Modules.Wallets.Core.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CryptoExchange.Modules.Wallets.Core.Services
 {

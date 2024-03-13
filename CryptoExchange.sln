@@ -35,7 +35,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.User
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Users.Api", "src\Modules\CryptoExchange.Modules.Users.Api\CryptoExchange.Modules.Users.Api.csproj", "{C701E30E-7D9C-41F8-8731-F18333431D5A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Tokens.Api", "src\Modules\CryptoExchange.Modules.Wallet.Api\CryptoExchange.Modules.Tokens.Api.csproj", "{5F10CDFF-1A15-4271-A2F9-F658D2805D26}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transfers", "Transfers", "{33F76C40-67A7-4F9A-B7FA-1F49BBB82999}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Transfers.Api", "src\Modules\CryptoExchange.Modules.Transfers.Api\CryptoExchange.Modules.Transfers.Api.csproj", "{2AB4B0A3-5198-4AA4-8BFD-6F35EA6B9FBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Transfers.Core", "src\Modules\CryptoExchange.Modules.Transfers.Core\CryptoExchange.Modules.Transfers.Core.csproj", "{8A3F2D32-2E09-476C-80A8-061D5E95ACCD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Tokens.Api", "src\Modules\CryptoExchange.Modules.Tokens.Api\CryptoExchange.Modules.Tokens.Api.csproj", "{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,10 +81,18 @@ Global
 		{C701E30E-7D9C-41F8-8731-F18333431D5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C701E30E-7D9C-41F8-8731-F18333431D5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C701E30E-7D9C-41F8-8731-F18333431D5A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F10CDFF-1A15-4271-A2F9-F658D2805D26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F10CDFF-1A15-4271-A2F9-F658D2805D26}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F10CDFF-1A15-4271-A2F9-F658D2805D26}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F10CDFF-1A15-4271-A2F9-F658D2805D26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AB4B0A3-5198-4AA4-8BFD-6F35EA6B9FBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AB4B0A3-5198-4AA4-8BFD-6F35EA6B9FBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AB4B0A3-5198-4AA4-8BFD-6F35EA6B9FBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AB4B0A3-5198-4AA4-8BFD-6F35EA6B9FBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A3F2D32-2E09-476C-80A8-061D5E95ACCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3F2D32-2E09-476C-80A8-061D5E95ACCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3F2D32-2E09-476C-80A8-061D5E95ACCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3F2D32-2E09-476C-80A8-061D5E95ACCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,7 +112,10 @@ Global
 		{AFD097A7-6114-42D7-B2E5-3735E9EA0E02} = {570CCA35-7F6D-4552-8EFF-47EA458340CF}
 		{0C0C5B32-214C-45C1-90A7-86846DE0698F} = {1CB2F2BD-4D7D-4FD2-8D21-12BFFE7246EC}
 		{C701E30E-7D9C-41F8-8731-F18333431D5A} = {1CB2F2BD-4D7D-4FD2-8D21-12BFFE7246EC}
-		{5F10CDFF-1A15-4271-A2F9-F658D2805D26} = {64094F49-9378-40AB-9F99-238656E8385B}
+		{33F76C40-67A7-4F9A-B7FA-1F49BBB82999} = {89601835-E5C7-4780-A137-5D7C5C80B29B}
+		{2AB4B0A3-5198-4AA4-8BFD-6F35EA6B9FBF} = {33F76C40-67A7-4F9A-B7FA-1F49BBB82999}
+		{8A3F2D32-2E09-476C-80A8-061D5E95ACCD} = {33F76C40-67A7-4F9A-B7FA-1F49BBB82999}
+		{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1} = {64094F49-9378-40AB-9F99-238656E8385B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C672D8FB-5088-4D33-BB7A-2E62BDAAE7CF}
