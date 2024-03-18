@@ -5,6 +5,7 @@ using Microsoft.Extensions.Logging;
 using System.Reflection;
 using Microsoft.Graph.Education.Classes.Item.Modules;
 using CryptoExchange.Shared.Abstractions.Modules;
+using CryptoExchange.Shared.Infrastructure.Modules;
 
 namespace Boostrapper.CryptoExchange
 {
@@ -14,13 +15,15 @@ namespace Boostrapper.CryptoExchange
         {
 
             var builder = WebApplication.CreateBuilder(args);
+            builder.Services.AddControllersWithViews();
+            builder.Host.ConfigureModules();
 
             IList<Assembly>  assemblies = ModuleLoader.LoadAssemblies(builder.Configuration);
             IList<IModule>  modules = ModuleLoader.LoadModules(assemblies);
 
           
 
-            builder.Services.AddInfrastructure();
+            builder.Services.AddInfrastructure(assemblies, modules);
 
             foreach (var module in modules)
             {

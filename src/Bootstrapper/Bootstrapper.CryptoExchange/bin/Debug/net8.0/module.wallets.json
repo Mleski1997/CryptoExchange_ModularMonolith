@@ -1,8 +1,8 @@
 ﻿{
   "wallets": {
     "module": {
-      "name": "Conferences",
-      "enabled":  false
+      "name": "Wallets",
+      "enabled": false
     }
   }
 }

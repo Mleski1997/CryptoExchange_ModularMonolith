@@ -36,11 +36,13 @@ namespace CryptoExchange.Shared.Infrastructure.Servies
             using var scoper = _serviceProvider.CreateScope();
             foreach (var dbContextType in dbContextTypes)
             {
-                var dbContext = scoper.ServiceProvider.GetRequiredService(dbContextType) as DbContext;
-                if (dbContext != null)
+                var dbContext = scoper.ServiceProvider.GetService(dbContextType) as DbContext;
+                if (dbContext is null)
                 {
-                    await dbContext.Database.MigrateAsync(cancellationToken);
+                    continue;
                 }
+
+                await dbContext.Database.MigrateAsync(cancellationToken);
             }
 
             
