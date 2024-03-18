@@ -20,3 +20,5 @@ C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\obj
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\obj\Debug\net8.0\refint\CryptoExchange.Modules.Wallets.Api.dll
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\obj\Debug\net8.0\CryptoExchange.Modules.Wallets.Api.pdb
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\obj\Debug\net8.0\ref\CryptoExchange.Modules.Wallets.Api.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\bin\Debug\net8.0\module.wallets.development.json
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Wallets.Api\bin\Debug\net8.0\module.wallets.json

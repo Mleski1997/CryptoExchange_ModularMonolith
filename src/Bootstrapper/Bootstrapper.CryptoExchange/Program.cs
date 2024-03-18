@@ -18,13 +18,14 @@ namespace Boostrapper.CryptoExchange
             IList<Assembly>  assemblies = ModuleLoader.LoadAssemblies(builder.Configuration);
             IList<IModule>  modules = ModuleLoader.LoadModules(assemblies);
 
-            builder.Services.AddWallets(builder.Configuration);
+          
+
+            builder.Services.AddInfrastructure();
+
             foreach (var module in modules)
             {
                 module.Register(builder.Services, builder.Configuration);
             }
-
-            builder.Services.AddInfrastructure();
 
             var app = builder.Build();
 
