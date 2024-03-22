@@ -2988,6 +2988,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CryptoExchange.Modules.Wallets.Core": "1.0.0",
           "CryptoExchange.Shared.Abstractions": "1.0.0",
           "CryptoExchange.Shared.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.2",
@@ -3004,6 +3005,21 @@
         },
         "runtime": {
           "bin/placeholder/CryptoExchange.Modules.Users.Core.dll": {}
+        }
+      },
+      "CryptoExchange.Modules.Wallets.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "CryptoExchange.Modules.Users.Core": "1.0.0",
+          "CryptoExchange.Shared.Infrastructure": "1.0.0",
+          "Microsoft.EntityFrameworkCore.SqlServer": "8.0.2"
+        },
+        "compile": {
+          "bin/placeholder/CryptoExchange.Modules.Wallets.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CryptoExchange.Modules.Wallets.Core.dll": {}
         }
       },
       "CryptoExchange.Shared.Abstractions/1.0.0": {
@@ -8216,6 +8232,11 @@
       "path": "../CryptoExchange.Modules.Users.Core/CryptoExchange.Modules.Users.Core.csproj",
       "msbuildProject": "../CryptoExchange.Modules.Users.Core/CryptoExchange.Modules.Users.Core.csproj"
     },
+    "CryptoExchange.Modules.Wallets.Core/1.0.0": {
+      "type": "project",
+      "path": "../CryptoExchange.Modules.Wallets.Core/CryptoExchange.Modules.Wallets.Core.csproj",
+      "msbuildProject": "../CryptoExchange.Modules.Wallets.Core/CryptoExchange.Modules.Wallets.Core.csproj"
+    },
     "CryptoExchange.Shared.Abstractions/1.0.0": {
       "type": "project",
       "path": "../../Shared/CryptoExchange.Shared.Abstractions/CryptoExchange.Shared.Abstractions.csproj",
@@ -8306,5 +8327,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  CryptoExchange.Modules.Users.Api -> CryptoExchange.Modules.Users.Core -> CryptoExchange.Modules.Wallets.Core -> CryptoExchange.Modules.Users.Core.",
+      "libraryId": "CryptoExchange.Modules.Users.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

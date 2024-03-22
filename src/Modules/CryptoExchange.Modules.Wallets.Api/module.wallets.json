@@ -2,7 +2,7 @@
   "wallets": {
     "module": {
       "name": "Wallets",
-      "enabled": false
+      "enabled": true
     }
   }
 }

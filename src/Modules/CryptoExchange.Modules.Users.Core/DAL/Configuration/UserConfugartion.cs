@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CryptoExchange.Modules.Tokens.Core.Entities
+namespace CryptoExchange.Modules.Users.Core.DAL.Configuration
 {
-    public class Wallet
+    internal class UserConfugartion
     {
     }
 }

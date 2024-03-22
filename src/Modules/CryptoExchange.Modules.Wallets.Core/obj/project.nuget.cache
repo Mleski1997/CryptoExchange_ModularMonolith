@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "dgSpecHash": "fKz2yFUpzw+9HYWZlAxBSXeXXyWG8UkIsyK4KjXjjD3BuI63nxXuXS0Jdxfb4js0SzHu1DsUL98YEOJBbtA5bw==",
-  "success": true,
+  "dgSpecHash": "y6MZ+umkOOylJt1oTukVfJoqX9dtMywiCHSuFbdaJ+8gBCzMwD8mChMg8mqkl2tgDeH1La6FVduXx5NZPZJ65w==",
+  "success": false,
   "projectFilePath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\CryptoExchange.Modules.Wallets.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\micha\\.nuget\\packages\\azure.core\\1.37.0\\azure.core.1.37.0.nupkg.sha512",
@@ -173,5 +173,15 @@
     "C:\\Users\\micha\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
     "C:\\Users\\micha\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  CryptoExchange.Modules.Wallets.Core -> CryptoExchange.Modules.Users.Core -> CryptoExchange.Modules.Wallets.Core.",
+      "libraryId": "CryptoExchange.Modules.Wallets.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

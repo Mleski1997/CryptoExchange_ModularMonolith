@@ -34,6 +34,9 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
+              "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\CryptoExchange.Modules.Wallets.Core.csproj": {
+                "projectPath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Wallets.Core\\CryptoExchange.Modules.Wallets.Core.csproj"
+              },
               "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Abstractions\\CryptoExchange.Shared.Abstractions.csproj": {
                 "projectPath": "C:\\Users\\micha\\CryptoExchange\\src\\Shared\\CryptoExchange.Shared.Abstractions\\CryptoExchange.Shared.Abstractions.csproj"
               },

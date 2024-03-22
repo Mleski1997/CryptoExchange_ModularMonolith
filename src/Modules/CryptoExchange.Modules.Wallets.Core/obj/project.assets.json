@@ -3148,6 +3148,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "CryptoExchange.Modules.Wallets.Core": "1.0.0",
           "CryptoExchange.Shared.Abstractions": "1.0.0",
           "CryptoExchange.Shared.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.2",
@@ -8311,5 +8312,16 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Cycle detected. \r\n  CryptoExchange.Modules.Wallets.Core -> CryptoExchange.Modules.Users.Core -> CryptoExchange.Modules.Wallets.Core.",
+      "libraryId": "CryptoExchange.Modules.Wallets.Core",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }
