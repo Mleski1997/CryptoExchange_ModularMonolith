@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 
 namespace CryptoExchange.Modules.Wallets.Api.Controllers
 {
-    public class BaseController : ControllerBase
+    [ApiController]
+    [Route(WalletModule.BasePath + "/[controller]")]
+    public  abstract class BaseController : ControllerBase
     {
         protected ActionResult<T> OkOrNotFound<T>(T model)
         {

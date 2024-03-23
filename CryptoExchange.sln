@@ -37,11 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.User
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transfers", "Transfers", "{33F76C40-67A7-4F9A-B7FA-1F49BBB82999}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Transfers.Api", "src\Modules\CryptoExchange.Modules.Transfers.Api\CryptoExchange.Modules.Transfers.Api.csproj", "{2AB4B0A3-5198-4AA4-8BFD-6F35EA6B9FBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Transfers.Api", "src\Modules\CryptoExchange.Modules.Transfers.Api\CryptoExchange.Modules.Transfers.Api.csproj", "{2AB4B0A3-5198-4AA4-8BFD-6F35EA6B9FBF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Transfers.Core", "src\Modules\CryptoExchange.Modules.Transfers.Core\CryptoExchange.Modules.Transfers.Core.csproj", "{8A3F2D32-2E09-476C-80A8-061D5E95ACCD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Transfers.Core", "src\Modules\CryptoExchange.Modules.Transfers.Core\CryptoExchange.Modules.Transfers.Core.csproj", "{8A3F2D32-2E09-476C-80A8-061D5E95ACCD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Tokens.Api", "src\Modules\CryptoExchange.Modules.Tokens.Api\CryptoExchange.Modules.Tokens.Api.csproj", "{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Tokens.Api", "src\Modules\CryptoExchange.Modules.Tokens.Api\CryptoExchange.Modules.Tokens.Api.csproj", "{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Users.Messages", "src\Modules\CryptoExchange.Modules.Users.Messages\CryptoExchange.Modules.Users.Messages.csproj", "{6588BBE3-0648-4267-85BE-2AEB396CCDD7}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6588BBE3-0648-4267-85BE-2AEB396CCDD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6588BBE3-0648-4267-85BE-2AEB396CCDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6588BBE3-0648-4267-85BE-2AEB396CCDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6588BBE3-0648-4267-85BE-2AEB396CCDD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -116,6 +122,7 @@ Global
 		{2AB4B0A3-5198-4AA4-8BFD-6F35EA6B9FBF} = {33F76C40-67A7-4F9A-B7FA-1F49BBB82999}
 		{8A3F2D32-2E09-476C-80A8-061D5E95ACCD} = {33F76C40-67A7-4F9A-B7FA-1F49BBB82999}
 		{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1} = {64094F49-9378-40AB-9F99-238656E8385B}
+		{6588BBE3-0648-4267-85BE-2AEB396CCDD7} = {1CB2F2BD-4D7D-4FD2-8D21-12BFFE7246EC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C672D8FB-5088-4D33-BB7A-2E62BDAAE7CF}

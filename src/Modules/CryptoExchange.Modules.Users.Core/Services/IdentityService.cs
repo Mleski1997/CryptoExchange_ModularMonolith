@@ -1,44 +1,36 @@
-﻿using CryptoExchange.Modules.Users.Core.DAL;
-using CryptoExchange.Modules.Users.Core.DTO;
+﻿using CryptoExchange.Modules.Users.Core.DTO;
 using CryptoExchange.Modules.Users.Core.Entities;
 using CryptoExchange.Modules.Users.Core.Exceptions;
-
+using CryptoExchange.Modules.Users.Core.Repository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.IdentityModel.JsonWebTokens;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Security.Cryptography.X509Certificates;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CryptoExchange.Modules.Users.Core.Services
 {
     public class IdentityService : IIdentityService
     {
-        private readonly UserManager<User> _userManager;
+        
         private readonly ITokenService _tokenService;
-        private readonly SignInManager<User> _signInManager;
+        private readonly IIdentityRepository _identityRepository;
+     
 
 
-        public IdentityService(UserManager<User> userManager, SignInManager<User> signInManager, ITokenService tokenService)
+        public IdentityService(ITokenService tokenService, IIdentityRepository identityRepository)
         {
-            _userManager = userManager;
+            _identityRepository = identityRepository;
             _tokenService = tokenService;
-            _signInManager = signInManager;
+           
 
         }
         public async Task SignUpAsync(SignUpDto signUpDto)
         {
-            var existEmail = await _userManager.FindByEmailAsync(signUpDto.Email);
+            var existEmail = await _identityRepository.FindByEmailAsync(signUpDto.Email);
             if (existEmail != null)
             {
                 throw new EmailAlreadyExistsExcpetion(signUpDto.Email);
             }
 
-            var existUserName = await _userManager.FindByEmailAsync(signUpDto.UserName);
+            var existUserName = await _identityRepository.FindByNameAsync(signUpDto.UserName);
             if (existUserName != null)
             {
                 throw new UserNameAlreadyExistsException(signUpDto.UserName);
@@ -50,12 +42,14 @@ namespace CryptoExchange.Modules.Users.Core.Services
                 UserName = signUpDto.UserName
 
             };
-            await _userManager.CreateAsync(User, signUpDto.Password);
-            await _userManager.AddToRoleAsync(User, "User");
+            await _identityRepository.CreateAsync(User, signUpDto.Password);
+            await _identityRepository.AddRoleAsync(User);
+
         }
         public async Task<String> SignInAsync(SignInDto signInDto)
         {
-            var user = await _userManager.Users.FirstOrDefaultAsync(x => x.UserName == signInDto.UserName);
+
+            var user = await _identityRepository.FindByNameAsync(signInDto.UserName);
             if (user is null)
             {
                 throw new UserDoesntExistsExceptions(signInDto.UserName);
@@ -66,9 +60,9 @@ namespace CryptoExchange.Modules.Users.Core.Services
                 throw new UserIsNotActiveExcepetion(user.Id);
             }
 
-            var result = await _signInManager.CheckPasswordSignInAsync(user, signInDto.Password, false);
+            var result = await _identityRepository.CheckPasswordAsync(user, signInDto.Password);
 
-            if (!result.Succeeded)
+            if (!result)
             {
                 throw new WrongPasswordException();
             }

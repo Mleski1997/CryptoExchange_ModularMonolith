@@ -1295,6 +1295,18 @@
           }
         }
       },
+      "Scrutor/4.2.2": {
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.0",
+          "Microsoft.Extensions.DependencyModel": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Scrutor.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.0.0.0"
+          }
+        }
+      },
       "Std.UriTemplate/0.0.50": {
         "runtime": {
           "lib/net5.0/Std.UriTemplate.dll": {
@@ -1643,6 +1655,7 @@
       },
       "CryptoExchange.Modules.Users.Core/1.0.0": {
         "dependencies": {
+          "CryptoExchange.Modules.Users.Messages": "1.0.0",
           "CryptoExchange.Shared.Abstractions": "1.0.0",
           "CryptoExchange.Shared.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.2",
@@ -1656,6 +1669,14 @@
         },
         "runtime": {
           "CryptoExchange.Modules.Users.Core.dll": {}
+        }
+      },
+      "CryptoExchange.Modules.Users.Messages/1.0.0": {
+        "dependencies": {
+          "CryptoExchange.Shared.Abstractions": "1.0.0"
+        },
+        "runtime": {
+          "CryptoExchange.Modules.Users.Messages.dll": {}
         }
       },
       "CryptoExchange.Modules.Wallets.Api/1.0.0": {
@@ -1699,6 +1720,7 @@
           "Microsoft.Graph": "5.42.0",
           "Npgsql": "8.0.2",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.2",
+          "Scrutor": "4.2.2",
           "Swashbuckle.AspNetCore": "6.5.0"
         },
         "runtime": {
@@ -2539,6 +2561,13 @@
       "path": "npgsql.entityframeworkcore.postgresql/8.0.2",
       "hashPath": "npgsql.entityframeworkcore.postgresql.8.0.2.nupkg.sha512"
     },
+    "Scrutor/4.2.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-t5VIYA7WJXoJJo7s4DoHakMGwTu+MeEnZumMOhTCH7kz9xWha24G7dJNxWrHPlu0ZdZAS4jDZCxxAnyaBh7uYw==",
+      "path": "scrutor/4.2.2",
+      "hashPath": "scrutor.4.2.2.nupkg.sha512"
+    },
     "Std.UriTemplate/0.0.50": {
       "type": "package",
       "serviceable": true,
@@ -2895,6 +2924,11 @@
       "sha512": ""
     },
     "CryptoExchange.Modules.Users.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CryptoExchange.Modules.Users.Messages/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

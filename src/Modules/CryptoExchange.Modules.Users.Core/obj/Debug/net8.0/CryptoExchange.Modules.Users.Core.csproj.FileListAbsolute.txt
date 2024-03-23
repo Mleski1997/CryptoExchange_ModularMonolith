@@ -16,3 +16,5 @@ C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\obj\
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\obj\Debug\net8.0\refint\CryptoExchange.Modules.Users.Core.dll
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\obj\Debug\net8.0\CryptoExchange.Modules.Users.Core.pdb
 C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\obj\Debug\net8.0\ref\CryptoExchange.Modules.Users.Core.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\bin\Debug\net8.0\CryptoExchange.Modules.Users.Messages.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Core\bin\Debug\net8.0\CryptoExchange.Modules.Users.Messages.pdb

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "b07TWzQ/W79CVRJJDiDDh6eYphgg4wRBGlqYU82UZnfOS1ZMKv00YiBhn22uIQ4tLeIMCY0/XoV+s3iJoS7xcQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\micha\\CryptoExchange\\src\\Modules\\CryptoExchange.Modules.Users.Messages\\CryptoExchange.Modules.Users.Messages.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\micha\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

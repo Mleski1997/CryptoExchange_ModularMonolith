@@ -15,7 +15,7 @@ namespace Boostrapper.CryptoExchange
         {
 
             var builder = WebApplication.CreateBuilder(args);
-            builder.Services.AddControllersWithViews();
+          
             builder.Host.ConfigureModules();
 
             IList<Assembly>  assemblies = ModuleLoader.LoadAssemblies(builder.Configuration);

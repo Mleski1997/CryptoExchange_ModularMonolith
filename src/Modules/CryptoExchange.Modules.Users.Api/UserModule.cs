@@ -11,7 +11,7 @@ using System.Threading.Tasks;
 
 namespace CryptoExchange.Modules.Users.Api
 {
-    internal class UsersModule : IModule
+    internal class UserModule : IModule
     {
         public const string BasePath = "users-module";
         public string Name => "Users";

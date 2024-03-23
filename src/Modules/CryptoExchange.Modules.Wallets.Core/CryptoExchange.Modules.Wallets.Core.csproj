@@ -23,8 +23,4 @@
     <ProjectReference Include="..\CryptoExchange.Modules.Users.Core\CryptoExchange.Modules.Users.Core.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="DAL\Configurations\" />
-  </ItemGroup>
-
 </Project>

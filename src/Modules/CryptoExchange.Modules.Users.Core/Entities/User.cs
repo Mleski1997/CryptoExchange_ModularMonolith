@@ -1,5 +1,4 @@
 ﻿
-using CryptoExchange.Modules.Wallets.Core.Entities;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -12,6 +11,6 @@ namespace CryptoExchange.Modules.Users.Core.Entities
     public class User : IdentityUser
     {
         public bool IsActive { get; set; } = true;
-        public IEnumerable<Wallet> Wallets { get; set; }
+      
     }
 }

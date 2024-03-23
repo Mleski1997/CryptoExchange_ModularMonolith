@@ -19,7 +19,7 @@ namespace CryptoExchange.Modules.Tokens.Api.Controllers
 
         public void Register(IServiceCollection services, IConfiguration configuration)
         {
-            services.AddCore(configuration);
+            
         }
 
         public void Use(IApplicationBuilder app)

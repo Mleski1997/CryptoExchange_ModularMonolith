@@ -24,6 +24,7 @@ namespace CryptoExchange.Modules.Wallets.Core.DAL
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            
             modelBuilder.HasDefaultSchema("wallet");
             modelBuilder.ApplyConfigurationsFromAssembly(GetType().Assembly);
         }

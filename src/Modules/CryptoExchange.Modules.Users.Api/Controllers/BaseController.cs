@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 namespace CryptoExchange.Modules.Users.Api.Controllers
 {
     [ApiController]
-    [Route(UsersModule.BasePath + "/[controller]")]
+    [Route(UserModule.BasePath + "/[controller]")]
     public class BaseController : ControllerBase
     {
         protected const string BasePath = "users-module";

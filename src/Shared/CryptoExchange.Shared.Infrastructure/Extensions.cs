@@ -1,5 +1,6 @@
 ﻿using CryptoExchange.Shared.Abstractions.Modules;
 using CryptoExchange.Shared.Infrastructure.Api;
+using CryptoExchange.Shared.Infrastructure.Events;
 using CryptoExchange.Shared.Infrastructure.Postgres;
 using CryptoExchange.Shared.Infrastructure.Servies;
 using Microsoft.AspNetCore.Builder;
@@ -35,6 +36,7 @@ namespace CryptoExchange.Shared.Infrastructure
             }
             services.AddHostedService<AppInitializer>();
             services.AddEndpointsApiExplorer();
+            services.AddEvents(assemblies);
             services.AddSwaggerGen();
             services.AddControllers()
                 .ConfigureApplicationPartManager(manager =>

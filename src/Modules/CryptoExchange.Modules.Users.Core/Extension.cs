@@ -38,6 +38,7 @@ namespace CryptoExchange.Modules.Users.Core
             services.AddScoped<ITokenService, TokenService>();
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IIdentityRepository, IdentityRepository>();
 
             return services;
         }

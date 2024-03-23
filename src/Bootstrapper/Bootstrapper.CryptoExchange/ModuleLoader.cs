@@ -3,13 +3,13 @@ using System.Reflection;
 
 namespace Bootstrapper.CryptoExchange
 {
-    public static class ModuleLoader
+    internal static class ModuleLoader
     {
         public static IList<Assembly> LoadAssemblies(IConfiguration configuration)
         {
-            const string modulePart = "CryptoExchange.Modules.";
+            const string modulePart = "Confab.Modules.";
             var assemblies = AppDomain.CurrentDomain.GetAssemblies().ToList();
-            var locations = assemblies.Where(x=>!x.IsDynamic).Select(x => x.Location).ToArray();
+            var locations = assemblies.Where(x => !x.IsDynamic).Select(x => x.Location).ToArray();
             var files = Directory.GetFiles(AppDomain.CurrentDomain.BaseDirectory, "*.dll")
                 .Where(x => !locations.Contains(x, StringComparer.InvariantCultureIgnoreCase))
                 .ToList();
@@ -33,7 +33,7 @@ namespace Bootstrapper.CryptoExchange
             foreach (var disabledModule in disabledModules)
             {
                 files.Remove(disabledModule);
-            } 
+            }
 
             files.ForEach(x => assemblies.Add(AppDomain.CurrentDomain.Load(AssemblyName.GetAssemblyName(x))));
 

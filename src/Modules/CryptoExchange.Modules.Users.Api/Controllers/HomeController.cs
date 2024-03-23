@@ -9,7 +9,7 @@ using RouteAttribute = Microsoft.AspNetCore.Components.RouteAttribute;
 
 namespace CryptoExchange.Modules.Users.Api.Controllers
 {
-    [Route(UsersModule.BasePath)]
+    [Route(UserModule.BasePath)]
     public class HomeController : BaseController 
 
     {

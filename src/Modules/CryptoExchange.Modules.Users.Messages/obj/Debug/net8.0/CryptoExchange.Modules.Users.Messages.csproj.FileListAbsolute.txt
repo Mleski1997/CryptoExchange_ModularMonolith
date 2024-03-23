@@ -1,0 +1,16 @@
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\bin\Debug\net8.0\CryptoExchange.Modules.Users.Messages.deps.json
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\bin\Debug\net8.0\CryptoExchange.Modules.Users.Messages.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\bin\Debug\net8.0\CryptoExchange.Modules.Users.Messages.pdb
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\bin\Debug\net8.0\CryptoExchange.Shared.Abstractions.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\bin\Debug\net8.0\CryptoExchange.Shared.Abstractions.pdb
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\obj\Debug\net8.0\CryptoExchange.Modules.Users.Messages.csproj.AssemblyReference.cache
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\obj\Debug\net8.0\CryptoExchange.Modules.Users.Messages.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\obj\Debug\net8.0\CryptoExchange.Modules.Users.Messages.AssemblyInfoInputs.cache
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\obj\Debug\net8.0\CryptoExchange.Modules.Users.Messages.AssemblyInfo.cs
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\obj\Debug\net8.0\CryptoExchange.Modules.Users.Messages.csproj.CoreCompileInputs.cache
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\obj\Debug\net8.0\CryptoExchange.Modules.Users.Messages.sourcelink.json
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\obj\Debug\net8.0\CryptoEx.94373771.Up2Date
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\obj\Debug\net8.0\CryptoExchange.Modules.Users.Messages.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\obj\Debug\net8.0\refint\CryptoExchange.Modules.Users.Messages.dll
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\obj\Debug\net8.0\CryptoExchange.Modules.Users.Messages.pdb
+C:\Users\micha\CryptoExchange\src\Modules\CryptoExchange.Modules.Users.Messages\obj\Debug\net8.0\ref\CryptoExchange.Modules.Users.Messages.dll
