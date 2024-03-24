@@ -9,6 +9,7 @@ namespace CryptoExchange.Modules.Wallets.Core.Entities
     public class User
     {
         public string UserId { get; set; }
+        public string Password { get; set; }
         public bool IsActive { get; set; }
         public IList<Wallet> Wallets { get; set; }
     }
