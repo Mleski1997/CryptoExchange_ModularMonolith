@@ -26,10 +26,8 @@ namespace CryptoExchange.Modules.Wallets.Core.Event.External.Handlers
                 WalletName = @event.WalletName,
                 WalletAddress = @event.WalletAddress,
                 CreatedAt = @event.CreatedAt,
-                TotalSaldo = @event.TotalSaldo,
-
-      
-            }
+                TotalSaldo = @event.TotalSaldo
+            };
         }
     }
 }
