@@ -8,8 +8,6 @@ using System.Threading.Tasks;
 
 namespace CryptoExchange.Modules.Users.Messages.Events
 {
-    public record UsersCreated(string Id, string Email, string UserName) : IEvent
-    {
-
-    }
+    public record UserCreatedEvent(Guid Id, string UserName, string Email) : IEvent;
+   
 }

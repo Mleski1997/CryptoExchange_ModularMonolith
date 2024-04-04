@@ -9,10 +9,13 @@ namespace CryptoExchange.Modules.Wallets.Core.Entities
     public class Wallet
     {
         public Guid Id { get; set; }
-        public string WalletAddress { get; private set; }
+        public string WalletAddress { get; set; }
         public string WalletName { get; set; } 
         public DateTime CreatedAt { get; set; }
         public decimal TotalSaldo { get; set; }
+
+        public string UserId { get; set; }
+        public User User { get; set; }
 
         public Wallet()
         {

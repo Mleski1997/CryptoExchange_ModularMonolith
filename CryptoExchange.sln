@@ -45,6 +45,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CryptoExchange.Modules.Toke
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Users.Messages", "src\Modules\CryptoExchange.Modules.Users.Messages\CryptoExchange.Modules.Users.Messages.csproj", "{6588BBE3-0648-4267-85BE-2AEB396CCDD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoExchange.Modules.Wallets.Messages", "src\Modules\CryptoExchange.Modules.Wallets.Messages\CryptoExchange.Modules.Wallets.Messages.csproj", "{831BC344-65BC-4081-B2BE-07D91B773294}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +101,10 @@ Global
 		{6588BBE3-0648-4267-85BE-2AEB396CCDD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6588BBE3-0648-4267-85BE-2AEB396CCDD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6588BBE3-0648-4267-85BE-2AEB396CCDD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{831BC344-65BC-4081-B2BE-07D91B773294}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{831BC344-65BC-4081-B2BE-07D91B773294}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{831BC344-65BC-4081-B2BE-07D91B773294}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{831BC344-65BC-4081-B2BE-07D91B773294}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -123,6 +129,7 @@ Global
 		{8A3F2D32-2E09-476C-80A8-061D5E95ACCD} = {33F76C40-67A7-4F9A-B7FA-1F49BBB82999}
 		{7DFEEF4F-45AD-4B4F-A5E7-B8192B8EFEF1} = {64094F49-9378-40AB-9F99-238656E8385B}
 		{6588BBE3-0648-4267-85BE-2AEB396CCDD7} = {1CB2F2BD-4D7D-4FD2-8D21-12BFFE7246EC}
+		{831BC344-65BC-4081-B2BE-07D91B773294} = {E0DBE549-1F42-4842-9F2D-9A327C5F3A8B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C672D8FB-5088-4D33-BB7A-2E62BDAAE7CF}

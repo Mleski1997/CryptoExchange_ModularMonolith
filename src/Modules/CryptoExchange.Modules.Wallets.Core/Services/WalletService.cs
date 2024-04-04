@@ -28,7 +28,6 @@ namespace CryptoExchange.Modules.Wallets.Core.Services
             var wallet = new Wallet
             {
                 Id = dto.Id,
-             
                 WalletName = dto.WalletName,
                 CreatedAt = dto.CreatedAt,
                 TotalSaldo = dto.TotalSaldo,

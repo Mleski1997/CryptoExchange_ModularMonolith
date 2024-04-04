@@ -3165,7 +3165,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
-          "CryptoExchange.Modules.Users.Messages": "1.0.0",
           "CryptoExchange.Shared.Abstractions": "1.0.0",
           "CryptoExchange.Shared.Infrastructure": "1.0.0",
           "Microsoft.AspNetCore.Authentication.JwtBearer": "8.0.2",
@@ -3182,19 +3181,6 @@
         },
         "runtime": {
           "bin/placeholder/CryptoExchange.Modules.Users.Core.dll": {}
-        }
-      },
-      "CryptoExchange.Modules.Users.Messages/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v8.0",
-        "dependencies": {
-          "CryptoExchange.Shared.Abstractions": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/CryptoExchange.Modules.Users.Messages.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/CryptoExchange.Modules.Users.Messages.dll": {}
         }
       },
       "CryptoExchange.Modules.Wallets.Messages/1.0.0": {
@@ -8263,11 +8249,6 @@
       "type": "project",
       "path": "../CryptoExchange.Modules.Users.Core/CryptoExchange.Modules.Users.Core.csproj",
       "msbuildProject": "../CryptoExchange.Modules.Users.Core/CryptoExchange.Modules.Users.Core.csproj"
-    },
-    "CryptoExchange.Modules.Users.Messages/1.0.0": {
-      "type": "project",
-      "path": "../CryptoExchange.Modules.Users.Messages/CryptoExchange.Modules.Users.Messages.csproj",
-      "msbuildProject": "../CryptoExchange.Modules.Users.Messages/CryptoExchange.Modules.Users.Messages.csproj"
     },
     "CryptoExchange.Modules.Wallets.Messages/1.0.0": {
       "type": "project",

@@ -21,6 +21,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\Shared\CryptoExchange.Shared.Infrastructure\CryptoExchange.Shared.Infrastructure.csproj" />
     <ProjectReference Include="..\CryptoExchange.Modules.Users.Core\CryptoExchange.Modules.Users.Core.csproj" />
+    <ProjectReference Include="..\CryptoExchange.Modules.Wallets.Messages\CryptoExchange.Modules.Wallets.Messages.csproj" />
   </ItemGroup>
 
 </Project>
